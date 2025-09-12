@@ -21,54 +21,84 @@ body {
     font-weight: 300;
     color: #ffffff;
     background-image: url("../../assets/images/background3.jpg");
-    background-repeat:no-repeat;
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #2d2d2e;
     min-height: 100%;
 }
-.color-orange{
+/* used to change text to color orange*/
+.color-orange {
     color: #ff6600;
 }
-.home-center h1{
+/* main h1 title*/
+.home-center h1 {
     text-align: center;
-    font-size:2.5rem;
-    font-weight:bold;
-    padding-left:5px;
-    padding-right:5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom:5vh;
+    margin-top: 5vh;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.home-center p{
+/*first p element on landing page*/
+.home-center .p1 {
     text-align: center;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     margin-top: 26vh;
-    padding-left:5px;
-    padding-right:5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.home-page-description{
-    font-size:1.5rem;
-    margin-bottom:26vh;
-    padding-left:5px;
-    padding-right:5px;
+/*second p element on landing page*/
+.home-center .p2{
+    text-align:center;
+    font-size: 1.5rem;
+    margin-bottom: 26vh;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-footer{
-    background-color:#ff6600;
+/*footer*/
+footer {
+    background-color: #ff6600;
     text-align: center;
-    height:180px;
-    padding-top:5px;
+    height: 180px;
+    padding-top: 5px;
 }
-footer img{
-    width:50px;
-    height:50px;
-    margin:10px;
+/*footer images for social media links*/
+footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
 }
-@media only screen and (min-width: 1025px){
-    .home-center h1{
-        font-size:8rem;
+
+/* media query for medium screens min 500px*/
+@media only screen and (min-width: 500px) {
+
+    /*increase font size and margin for medium screens*/
+    .home-center h1 {
+        font-size: 5rem;
         margin-top: 10vh;
     }
-    .home-center p{
-        margin-top:20vh;
     }
-    .home-page-description{
-        margin-bottom:20vh;
+/*media query for larger screens min 1025px*/
+@media only screen and (min-width: 1025px) {
+
+    /*increase font size and margin for larger screens*/
+    .home-center h1 {
+        font-size: 8rem;
+        margin-top: 10vh;
+    }
+
+    .home-center .p1 {
+        margin-top: 20vh;
+    }
+
+    .home-center .p2 {
+        margin-bottom: 25vh;
+    }
+}
+/*media query for min width 1600px*/
+@media only screen and (min-width: 1600px){
+    .home-center .p2{
+        margin-bottom:25vh;
     }
 }
