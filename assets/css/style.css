@@ -31,19 +31,28 @@ body {
 }
 .home-center h1{
     text-align: center;
-    font-size:3rem;
+    font-size:2.5rem;
     font-weight:bold;
-    margin-bottom:25vh;
+    padding-left:5px;
+    padding-right:5px;
 }
 .home-center p{
     text-align: center;
     font-size:1.5rem;
-    margin-top: 25vh;
+    margin-top: 26vh;
+    padding-left:5px;
+    padding-right:5px;
+}
+.home-page-description{
+    font-size:1.5rem;
+    margin-bottom:26vh;
+    padding-left:5px;
+    padding-right:5px;
 }
 footer{
     background-color:#ff6600;
     text-align: center;
-    height:100px;
+    height:180px;
     padding-top:5px;
 }
 footer img{
@@ -55,5 +64,11 @@ footer img{
     .home-center h1{
         font-size:8rem;
         margin-top: 10vh;
+    }
+    .home-center p{
+        margin-top:20vh;
+    }
+    .home-page-description{
+        margin-bottom:20vh;
     }
 }
