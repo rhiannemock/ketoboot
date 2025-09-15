@@ -45,18 +45,38 @@ body {
     margin-bottom: 20px;    
     margin-top:100px;
     padding-left: 10px;
-    padding-right:10px
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:10px;
+    background-color: #232429;
 }
 .wrapper .text-box{
     text-align: center;    
     padding-left: 10px;
-    padding-right:10px
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #232429;
+    box-shadow: 0 1px 3px #00020b;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    max-width:100%;
+}
+.wrapper img{
+    margin:20px 20px 20px 20px;
+    max-width:90vw;
+}
+.wrapper iframe{
+    margin:20px 20px 20px 20px;
+    max-width:90vw;
 }
 /*footer*/
 footer {
     background-color: #ff6600;
     text-align: center;
     height: 180px;
+    width:100vw;
     padding-top: 5px;
 }
 /*footer images for social media links*/
@@ -116,6 +136,38 @@ footer img {
     color:#0e0e0e;
     background-color:#ff6600;
 }
+/*..............................about keto page.................................*/
+.wrapper .text-box-top{
+    margin-top:100px;
+}
+.wrapper iframe{
+    margin:20px 20px 20px 20px;
+    max-width:90vw;
+}
+   /*...........questions and answers section.....................*/
+.qanda {
+    background-color: #232429;
+    box-shadow: 0 1px 3px #00020b;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+div #my-read-more {
+    display: none;
+}
+
+#more:checked~#my-read-more {
+    display: block;
+}
+
+.hide-checkbox {
+    display: none;
+}
+
+ 
 /*..............................................media queries.............................................*/
 /* media query for medium screens min 500px*/
 @media only screen and (min-width: 500px) {
@@ -129,7 +181,7 @@ footer img {
 /*media query for larger screens min 1025px*/
 @media only screen and (min-width: 1025px) {
 
-    /*increase font size and margin for larger screens*/
+    /*....................increase font size and margin for larger screens..............................*/
     .home-center h1 {
         font-size: 8rem;
         margin-top: 10vh;
@@ -143,7 +195,7 @@ footer img {
         margin-bottom: 25vh;
     }
 
-    /*sign up form container*/
+    /*...................sign up form container............................*/
 .wrapper-form{
     display:flex;
     flex-direction: column;
@@ -156,6 +208,28 @@ footer img {
     padding-bottom:20px;
     padding-left:5px;
     padding-right:5px;
+}
+
+/*...................flex for larger screensabout keto page...................*/
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.wrapper div{
+    flex:1 1 45%;
+}
+.wrapper img{
+    margin:20px 20px 20px 20px;
+    max-width:45vw;
+    justify-content:center;
+    align-items:center;
+}
+.wrapper iframe{
+    margin-top:100px;
+    width:45vw;
+    height:30vw;
 }
 }
 /*media query for min width 1600px*/
