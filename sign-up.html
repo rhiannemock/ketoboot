@@ -28,7 +28,7 @@
 </head>
 
 <body>
-   <!----navbar header bootstrap-->
+    <!----navbar header bootstrap-->
     <header>
         <nav class="navbar navbar-dark bg-dark fixed-top" role="navigation">
             <div class="container-fluid">
@@ -55,7 +55,9 @@
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item" href="about-keto.html" aria-label="about keto page">About Keto</a></li>
                                     <li><a class="dropdown-item" href="sign-up.html" aria-label="sign up page">Sign Up</a></li>
-                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
                                     <li><a class="dropdown-item" href="../assets/downloads/keto-shopping-list.jpg" target="_blank" aria-label="printable shopping list">Printable Shopping List</a></li>
                                     <li><a class="dropdown-item" href="../assets/downloads/meal-log.jpg" target="_blank" aria-label="printable meal log">Printable Meal Log</a></li>
                                     <li><a class="dropdown-item" href="../assets/downloads/meal-plan-example.jpg" target="_blank" aria-label="printable meal plan example">Printable Meal Plan Example</a></li>
@@ -69,93 +71,93 @@
         </nav>
 
     </header>
-<main role="main">
-    <section>
-        <div class="wrapper">
-            <div class="text-box-top text-box">
-                <h1 class="color-orange">Why not sign up to our emails? </h1>
-                <p>You will get exclusive access to recipes, tips and latest features. All designed to get you started and support you throughout your ketogenic journey!</p>
+    <main role="main">
+        <section>
+            <div class="wrapper">
+                <div class="text-box-top text-box">
+                    <h1 class="color-orange">Why not sign up to our emails? </h1>
+                    <p>You will get exclusive access to recipes, tips and latest features. All designed to get you started and support you throughout your ketogenic journey!</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="wrapper-form">
-            <form action="https://formdump.codeinstitute.net" method="POST" aria-label="sign up form">
-                <fieldset class="personal-info">
-                    <legend class="color-orange">Please enter your Personal Information</legend>
-                    <br>
-                    <br>
-                    <br>
+        <section>
+            <div class="wrapper-form">
+                <form action="https://formdump.codeinstitute.net" method="POST" aria-label="sign up form">
+                    <fieldset class="personal-info">
+                        <legend class="color-orange">Please enter your Personal Information</legend>
+                        <br>
+                        <br>
+                        <br>
                         <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" aria-label="name" required>
+                        <input type="text" id="name" name="name" aria-label="name" required>
+                        <br>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" aria-label="email" required>
+                        <br>
+                        <br>
+                        <label for="age">Age:</label>
+                        <select id="age" name="age" aria-label="age" required>
+                            <option value="" disabled selected aria-label="select your age group">Select your age group</option>
+                            <option value="18-24" aria-label="18 to 24">18-24</option>
+                            <option value="25-34" aria-label="25 to 34">25-34</option>
+                            <option value="35-44" aria-label="35 to 44">35-44</option>
+                            <option value="45-54" aria-label="45 to 54">45-54</option>
+                            <option value="55+" aria-label="55 or over">55+</option>
+                        </select>
+                    </fieldset>
                     <br>
                     <br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" aria-label="email" required>
+                    <br>
+                    <fieldset id="allergies">
+
+                        <legend class="color-orange">Do you have any food allergies or intolerances?</legend>
+                        <br>
+                        <br>
+                        <label for="gluten">Gluten:</label>
+                        <input type="radio" id="gluten" name="allergies" value="gluten" aria label="gluten allergy">
+                        <br>
+                        <label for="shellfish">Shellfish:</label>
+                        <input type="radio" id="shellfish" name="allergies" value="shellfish" aria-label="shellfish allergy">
+                        <br>
+                        <label for="nuts">Nuts:</label>
+                        <input type="radio" id="nuts" name="allergies" value="nuts" aria-label="nut allergy">
+                        <br>
+                        <label for="dairy">Dairy:</label>
+                        <input type="radio" id="dairy" name="allergies" value="dairy" aria-label="dairy allergy">
+                        <br>
+                        <label for="eggs">Eggs:</label>
+                        <input type="radio" id="eggs" name="allergies" value="eggs" aria label="egg allergy">
+                        <br>
+                    </fieldset>
                     <br>
                     <br>
-                    <label for="age">Age:</label>
-                    <select id="age" name="age" aria-label="age" required>
-                        <option value="" disabled selected aria-label="select your age group">Select your age group</option>
-                        <option value="18-24" aria-label="18 to 24">18-24</option>
-                        <option value="25-34" aria-label="25 to 34">25-34</option>
-                        <option value="35-44" aria-label="35 to 44">35-44</option>
-                        <option value="45-54" aria-label="45 to 54">45-54</option>
-                        <option value="55+" aria-label="55 or over">55+</option>
-                    </select>
-                </fieldset>
-        <br>
-        <br>
-        <br>
-        <fieldset id="allergies">
-            
-                <legend class="color-orange">Do you have any food allergies or intolerances?</legend>
-                <br>
-                <br>
-                <label for="gluten">Gluten:</label>
-                <input type="radio" id="gluten" name="allergies" value="gluten" aria label="gluten allergy">
-                <br>
-                <label for="shellfish">Shellfish:</label>
-                <input type="radio" id="shellfish" name="allergies" value="shellfish" aria-label="shellfish allergy">
-                <br>
-                <label for="nuts">Nuts:</label>
-                <input type="radio" id="nuts" name="allergies" value="nuts" aria-label="nut allergy">
-                <br>
-                <label for="dairy">Dairy:</label>
-                <input type="radio" id="dairy" name="allergies" value="dairy" aria-label="dairy allergy">
-                <br>
-                <label for="eggs">Eggs:</label>
-                <input type="radio" id="eggs" name="allergies" value="eggs" aria label="egg allergy">
-                <br>
-        </fieldset>
-        <br>
-        <br>
-        <br>
-        <fieldset id="experience">
-                <legend class="color-orange">How much previous experience do you have with keto?</legend>
-                <br>
-                <br>
-                <label for="beginner">Beginner</label>
-                <input type="checkbox" id="beginner" name="experience" value="beginner" aria-label="beginner experience">
-                <br>
-                <label for="looked-into-it">I've looked into it</label>
-                <input type="checkbox" id="looked-into-it" name="experience" value="looked-into-it" aria-label="some experience">
-                <br>
-                <label for="experienced">Experienced</label>
-                <input type="checkbox" id="experienced" name="experience" value="experienced" aria-label="experienced">
-                <br>
-                <br>
-                <br>
-        </fieldset>
-            <h3 id="form-submitted"></h3>
-            <button type="submit" onclick='document.getElementById("form-submitted").innerHTML = "Your details have been submitted successfully, check your emails for updates!"' aria-label="submit button">Submit</button>
-            <button type="reset" aria-label="reset-button">Reset</button>
-        
-        </form>
-       </div>
-   
-    </section>
+                    <br>
+                    <fieldset id="experience">
+                        <legend class="color-orange">How much previous experience do you have with keto?</legend>
+                        <br>
+                        <br>
+                        <label for="beginner">Beginner</label>
+                        <input type="checkbox" id="beginner" name="experience" value="beginner" aria-label="beginner experience">
+                        <br>
+                        <label for="looked-into-it">I've looked into it</label>
+                        <input type="checkbox" id="looked-into-it" name="experience" value="looked-into-it" aria-label="some experience">
+                        <br>
+                        <label for="experienced">Experienced</label>
+                        <input type="checkbox" id="experienced" name="experience" value="experienced" aria-label="experienced">
+                        <br>
+                        <br>
+                        <br>
+                    </fieldset>
+                    <h3 id="form-submitted"></h3>
+                    <button type="submit" onclick='document.getElementById("form-submitted").innerHTML = "Your details have been submitted successfully, check your emails for updates!"' aria-label="submit button">Submit</button>
+                    <button type="reset" aria-label="reset-button">Reset</button>
+
+                </form>
+            </div>
+
+        </section>
 
     </main>
 

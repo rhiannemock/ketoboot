@@ -26,6 +26,7 @@ body {
     background-color: #2d2d2e;
     min-height: 100%;
 }
+
 /* used to change text to color orange*/
 .color-orange {
     color: #ff6600;
@@ -33,71 +34,79 @@ body {
 
 /*.wrapper settings*/
 .wrapper {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-wrap:wrap;    
+    flex-wrap: wrap;
 }
 
 /*general text box alignment of text*/
-.wrapper .text-box-top{
+.wrapper .text-box-top {
     text-align: center;
-    margin-bottom: 20px;    
-    margin-top:100px;
+    margin-bottom: 20px;
+    margin-top: 100px;
     padding-left: 10px;
-    padding-right:10px;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-radius:10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
     background-color: #232429;
 }
-.wrapper .text-box{
-    text-align: center;    
+
+.wrapper .text-box {
+    text-align: center;
     padding-left: 10px;
-    padding-right:10px;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #232429;
     box-shadow: 0 1px 3px #00020b;
     margin: 20px 20px 20px 20px;
     border-radius: 10px;
-    max-width:100%;
+    max-width: 100%;
 }
-.wrapper img{
-    margin:20px 20px 20px 20px;
-    max-width:90vw;
+
+.wrapper img {
+    margin: 20px 20px 20px 20px;
+    max-width: 95vw;
 }
-.wrapper iframe{
-    margin:20px 20px 20px 20px;
-    max-width:90vw;
+
+.wrapper iframe {
+    margin: 20px 20px 20px 20px;
+    max-width: 95vw;
 }
+
 /*footer*/
 footer {
     background-color: #ff6600;
     text-align: center;
     height: 180px;
-    width:100vw;
+    width: 100vw;
     padding-top: 5px;
 }
+
 /*footer images for social media links*/
 footer img {
     width: 50px;
     height: 50px;
     margin: 10px;
 }
+
 /*footer paragraph*/
 footer p {
     color: #0e0e0e;
     font-weight: bold;
 }
-footer p a{
-    color:#0e0e0e;
-    text-decoration:none;
-    font-weight:bold;
+
+footer p a {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-weight: bold;
 }
-footer p a:hover{
-    color:#ffffff;
-    background-color:#232429
+
+footer p a:hover {
+    color: #ffffff;
+    background-color: #232429
 }
 
 /*..................landing page styles..................*/
@@ -106,11 +115,12 @@ footer p a:hover{
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom:5vh;
+    margin-bottom: 5vh;
     margin-top: 5vh;
     padding-left: 5px;
     padding-right: 5px;
 }
+
 /*first p element on landing page*/
 .home-center .p1 {
     text-align: center;
@@ -119,9 +129,10 @@ footer p a:hover{
     padding-left: 5px;
     padding-right: 5px;
 }
+
 /*second p element on landing page*/
-.home-center .p2{
-    text-align:center;
+.home-center .p2 {
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 26vh;
     padding-left: 5px;
@@ -131,34 +142,40 @@ footer p a:hover{
 /*.............................sign up page styles.............................*/
 
 /*sign up form container*/
-.wrapper-form{
-    display:flex;
+.wrapper-form {
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align:center;
-    background-color:#2d2d2e;
-    border-radius:10px;
-    margin:20px 20px 20px 20px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:5px;
-    padding-right:5px;
+    text-align: center;
+    background-color: #2d2d2e;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.wrapper-form button{
-    border-radius:10px;
-    font-weight:bold;
-    color:#0e0e0e;
-    background-color:#ff6600;
+
+.wrapper-form button {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #0e0e0e;
+    background-color: #ff6600;
 }
+
 /*..............................about keto page.................................*/
-.wrapper .text-box-top{
-    margin-top:100px;
+.wrapper .text-box-top {
+    margin-top: 100px;
 }
-.wrapper iframe{
-    margin:20px 20px 20px 20px;
-    max-width:100vw;
+
+.wrapper iframe {
+    margin: 25px 25px 25px 25px;
+    width: 100vw;
+    height: 30vh;
+
 }
-   /*...........questions and answers section.....................*/
+
+/*...........questions and answers section.....................*/
 .qanda {
     background-color: #232429;
     box-shadow: 0 1px 3px #00020b;
@@ -181,7 +198,7 @@ div #my-read-more {
     display: none;
 }
 
- 
+
 /*..............................................media queries.............................................*/
 /* media query for medium screens min 500px*/
 @media only screen and (min-width: 500px) {
@@ -191,7 +208,14 @@ div #my-read-more {
         font-size: 5rem;
         margin-top: 10vh;
     }
+
+    /*pyramid image alignment*/
+    .wrapper img {
+        margin-left: 30px;
+        margin-right: 30px;
     }
+}
+
 /*media query for larger screens min 1025px*/
 @media only screen and (min-width: 1025px) {
 
@@ -210,45 +234,55 @@ div #my-read-more {
     }
 
     /*...................sign up form container............................*/
-.wrapper-form{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align:center;
-    background-color:#2d2d2e;
-    border-radius:10px;
-    margin:50px 50px 50px 50px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:5px;
-    padding-right:5px;
+    .wrapper-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #2d2d2e;
+        border-radius: 10px;
+        margin: 50px 50px 50px 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /*...................flex for larger screens about keto page...................*/
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .wrapper div {
+        flex: 1 1 45%;
+    }
+
+    .wrapper img {
+        padding: 20px 20px 20px 20px;
+        margin: 25px 25px 25px 25px;
+        max-width: 45vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .wrapper iframe {
+        margin-top: 100px;
+        width: 45vw;
+        height: 30vw;
+    }
 }
 
-/*...................flex for larger screensabout keto page...................*/
-.wrapper{
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: space-around;
-}
-.wrapper div{
-    flex:1 1 45%;
-}
-.wrapper img{
-    margin:20px 20px 20px 20px;
-    max-width:45vw;
-    justify-content:center;
-    align-items:center;
-}
-.wrapper iframe{
-    margin-top:100px;
-    width:45vw;
-    height:30vw;
-}
-}
 /*media query for min width 1600px*/
-@media only screen and (min-width: 1600px){
-    .home-center .p2{
-        margin-bottom:25vh;
+@media only screen and (min-width: 1600px) {
+    .home-center .p2 {
+        margin-bottom: 25vh;
+    }
+
+    .wrapper img {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
