@@ -85,6 +85,20 @@ footer img {
     height: 50px;
     margin: 10px;
 }
+/*footer paragraph*/
+footer p {
+    color: #0e0e0e;
+    font-weight: bold;
+}
+footer p a{
+    color:#0e0e0e;
+    text-decoration:none;
+    font-weight:bold;
+}
+footer p a:hover{
+    color:#ffffff;
+    background-color:#232429
+}
 
 /*..................landing page styles..................*/
 /* main h1 title on landing page*/
