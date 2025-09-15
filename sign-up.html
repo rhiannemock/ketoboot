@@ -78,7 +78,7 @@
 
     <section>
         <div class="wrapper-form">
-            <form action="https://formdump.codeinstitute.net" method="post">
+            <form action="https://formdump.codeinstitute.net" method="POST" aria-label="sign up form">
                 <fieldset class="personal-info">
                     <legend class="color-orange">Please enter your Personal Information</legend>
                     <br>
@@ -145,8 +145,8 @@
                 <br>
                 <br>
         </fieldset>
-       
-            <button type="submit" aria-label="submit button">Submit</button>
+            <h3 id="form-submitted"></h3>
+            <button type="submit" onclick='document.getElementById("form-submitted").innerHTML = "Your details have been submitted successfully, check your emails for updates!"' aria-label="submit button">Submit</button>
             <button type="reset" aria-label="reset-button">Reset</button>
         
         </form>
