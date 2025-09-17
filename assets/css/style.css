@@ -169,27 +169,19 @@ footer p a:hover {
 }
 
 .wrapper iframe {
-    margin: 25px 25px 25px 25px;
-    width: 95vw;
-    height: 30vh;
+    margin: 10px 10px 10px 10px;
+    width: 90vw;
+    height: 25vh;
 
 }
 .wrapper img{
-    max-width:95vw;
+    width:90vw;
+    margin:10px 10px 10px 10px;
 
 }
 
 /*...........questions and answers section.....................*/
-.qanda {
-    background-color: #232429;
-    box-shadow: 0 1px 3px #00020b;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 10px;
-}
+
 
 div #my-read-more {
     display: none;
