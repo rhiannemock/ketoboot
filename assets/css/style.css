@@ -170,8 +170,12 @@ footer p a:hover {
 
 .wrapper iframe {
     margin: 25px 25px 25px 25px;
-    width: 100vw;
+    width: 95vw;
     height: 30vh;
+
+}
+.wrapper img{
+    max-width:95vw;
 
 }
 
@@ -184,6 +188,7 @@ footer p a:hover {
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 
 div #my-read-more {
