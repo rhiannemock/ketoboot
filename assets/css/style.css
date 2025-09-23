@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 }
 
 /*general text box alignment of text*/
@@ -200,7 +200,14 @@ div #my-read-more {
 .hide-checkbox {
     display: none;
 }
-
+/*.............................................recipe section.............................................*/
+.wrapper-recipe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
 
 /*..............................................media queries.............................................*/
 /* media query for medium screens min 500px*/
