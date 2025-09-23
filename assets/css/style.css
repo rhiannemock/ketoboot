@@ -67,13 +67,19 @@ body {
 }
 
 .wrapper img {
+    justify-content:center;
+    align-items:center;
     margin: 20px 20px 20px 20px;
-    max-width: 95vw;
+    border-radius:10px;
 }
 
 .wrapper iframe {
     margin: 20px 20px 20px 20px;
-    max-width: 95vw;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height:auto;
+    border-radius:10px;
 }
 
 /*footer*/
@@ -170,14 +176,14 @@ footer p a:hover {
 
 .wrapper iframe {
     margin: 20px 20px 20px 20px;
-    max-width: 90vw;
-    height: 25vh;
+    width: 90vw;
+    border-radius: 10px;
 
 }
 .wrapper img{
     max-width:90vw;
     margin:20px 20px 20px 20px;
-
+    border-radius:10px;
 }
 
 /*...........questions and answers section.....................*/
@@ -210,6 +216,11 @@ div #my-read-more {
     .wrapper img {
         margin-left: 30px;
         margin-right: 30px;
+    }
+    .wrapper iframe {
+    margin: 20px 20px 20px 20px;
+    width: 95vw;
+    height: 25vw;
     }
 }
 
