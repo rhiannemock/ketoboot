@@ -308,8 +308,24 @@ div #my-read-more {
         width: 45vw;
         height: 30vw;
     }
-}
 
+    .wrapper2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+   
+}
+.wrapper2 div{
+    flex: 1 1 45%;
+    
+}
+.wrapper2 img{
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px 25px 25px;
+}
 /*media query for min width 1600px*/
 @media only screen and (min-width: 1600px) {
     .home-center .p2 {
