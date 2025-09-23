@@ -74,7 +74,7 @@
             messageElement.classList.add(type);
         }
         
-        // Function to reset the form and the message
+     // Function to reset the form and the message
         function resetForm() {
             let messageElement = document.getElementById('form-submitted');
             messageElement.innerText = '';
