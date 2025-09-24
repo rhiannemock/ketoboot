@@ -37,7 +37,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 /*general text box alignment of text*/
@@ -67,10 +67,10 @@ body {
 }
 
 .wrapper img {
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin: 20px 20px 20px 20px;
-    border-radius:10px;
+    border-radius: 10px;
 }
 
 .wrapper iframe {
@@ -78,8 +78,8 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    height:auto;
-    border-radius:10px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /*footer*/
@@ -121,8 +121,8 @@ footer p a:hover {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -131,7 +131,7 @@ footer p a:hover {
 .home-center .p1 {
     text-align: center;
     font-size: 1.5rem;
-    margin-top: 26vh;
+    margin-top: 28vh;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -140,7 +140,7 @@ footer p a:hover {
 .home-center .p2 {
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 26vh;
+    margin-bottom: 28vh;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -180,10 +180,11 @@ footer p a:hover {
     border-radius: 10px;
 
 }
-.wrapper img{
-    max-width:90vw;
-    margin:20px 20px 20px 20px;
-    border-radius:10px;
+
+.wrapper img {
+    max-width: 90vw;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 /*...........questions and answers section.....................*/
@@ -200,20 +201,23 @@ div #my-read-more {
 .hide-checkbox {
     display: none;
 }
+
 /*.............................................recipe section.............................................*/
 .recipe-image {
     max-width: 90vw;
     border-radius: 10px;
-    margin:0;
+    margin: 0;
     padding: 10px 10px 10px 10px;
 }
+
 .wrapper2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.wrapper2 .style{
+
+.wrapper2 .style {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -232,22 +236,23 @@ div #my-read-more {
 
     /*increase font size and margin for medium screens*/
     .home-center h1 {
-        font-size: 5rem;
-        margin-top: 10vh;
+        font-size: 4rem;
+        margin-top: 15vh;
     }
 
     /* image alignment*/
     .wrapper img {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
         justify-content: center;
         align-items: center;
-        max-width:90%;
+        max-width: 92%;
     }
+
     .wrapper iframe {
-    margin: 25px 25px 25px 25px;
-    max-width: 100%;
-    height: 25vw;
+        margin: 25px 25px 25px 25px;
+        max-width: 100%;
+        height: 25vw;
     }
 }
 
@@ -257,11 +262,12 @@ div #my-read-more {
     /*....................increase font size and margin for larger screens..............................*/
     .home-center h1 {
         font-size: 8rem;
-        margin-top: 10vh;
+        margin-top: 20vh;
     }
 
     .home-center .p1 {
         margin-top: 20vh;
+        margin-bottom:10vh;
     }
 
     .home-center .p2 {
@@ -310,38 +316,112 @@ div #my-read-more {
     }
 
     .wrapper2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap:wrap;
-   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .wrapper2 div {
+        flex: 1 1 45%;
+
+    }
+
+    .wrapper2 img {
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 25px 25px 25px;
+    }
 }
-.wrapper2 div{
-    flex: 1 1 45%;
-    
-}
-.wrapper2 img{
-    max-width: 90%;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 25px 25px 25px;
-}
+
+/* <-- Add this closing bracket to end the previous @media block */
 /*media query for min width 1600px*/
 @media only screen and (min-width: 1600px) {
     .home-center .p2 {
-        margin-bottom: 25vh;
+        margin-bottom: 35vh;
     }
 
     .wrapper img {
         justify-content: center;
         align-items: center;
-        max-width:95%;
+        max-width: 95%;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .wrapper {
+        font-size: 1.6rem;
         margin-left: 50px;
         margin-right: 50px;
     }
-    .wrapper{
-    font-size:1.3rem;
-    margin-left:50px;
-    margin-right:50px;
+    .wrapper2 {
+        font-size: 1.6rem;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .wrapper-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #2d2d2e;
+        border-radius: 10px;
+        margin: 50px 50px 50px 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size:1.6rem;
+}
+}
+/* media query for very large screens min 2000px*/
+@media only screen and (min-width: 2000px) {
+    .home-center .p2 {
+        margin-bottom: 30vh;
+    }   
+    .home-center h1 {
+        font-size: 10rem;
+        margin-top: 15vh;
+    }
+    .home-center .p1{
+        font-size: 2rem;
+        margin-top: 30vh;
+    }
+
+    .wrapper img {
+        justify-content: center;
+        align-items: center;
+        max-width: 95%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .wrapper {
+        font-size: 2rem;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom:8vh;
+    }
+
+    .wrapper2 {
+        font-size: 2rem;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .wrapper-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: #2d2d2e;
+        border-radius: 10px;
+        margin: 50px 50px 50px 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size:2rem;
 }
 }
