@@ -27,7 +27,7 @@ body {
     min-height: 100%;
 }
 
-/* used to change text to color orange*/
+/* used to change text to color orange for headings*/
 .color-orange {
     color: #ff6600;
 }
@@ -40,7 +40,7 @@ body {
     flex-wrap: wrap;
 }
 
-/*general text box alignment of text*/
+/*text box alignment of text for the top to allow margin for nav*/
 .wrapper .text-box-top {
     text-align: center;
     margin-bottom: 20px;
@@ -52,7 +52,7 @@ body {
     border-radius: 10px;
     background-color: #232429;
 }
-
+/*general text box alignment of text*/
 .wrapper .text-box {
     text-align: center;
     padding-left: 10px;
@@ -65,7 +65,7 @@ body {
     border-radius: 10px;
     max-width: 100%;
 }
-
+/*image and iframe settings*/
 .wrapper img {
     justify-content: center;
     align-items: center;
@@ -109,7 +109,7 @@ footer p a {
     text-decoration: none;
     font-weight: bold;
 }
-
+/*footer email address hover effect*/
 footer p a:hover {
     color: #ffffff;
     background-color: #232429
@@ -173,7 +173,7 @@ footer p a:hover {
 .wrapper .text-box-top {
     margin-top: 100px;
 }
-
+/*iframe and image settings*/
 .wrapper iframe {
     margin: 20px 20px 20px 20px;
     width: 90vw;
@@ -189,7 +189,7 @@ footer p a:hover {
 
 /*...........questions and answers section.....................*/
 
-
+/*read more and read less toggle button*/
 div #my-read-more {
     display: none;
 }
@@ -234,13 +234,13 @@ div #my-read-more {
 /* media query for medium screens min 500px*/
 @media only screen and (min-width: 500px) {
 
-    /*increase font size and margin for medium screens*/
+    /*increase font size and margin for medium screens home page*/
     .home-center h1 {
         font-size: 4rem;
         margin-top: 15vh;
     }
 
-    /* image alignment*/
+    /* image alignment and i frame*/
     .wrapper img {
         margin-left: 20px;
         margin-right: 20px;
@@ -259,7 +259,7 @@ div #my-read-more {
 /*media query for larger screens min 1025px*/
 @media only screen and (min-width: 1025px) {
 
-    /*....................increase font size and margin for larger screens..............................*/
+    /*....................increase font size and margin for larger screens home page..............................*/
     .home-center h1 {
         font-size: 8rem;
         margin-top: 20vh;
@@ -314,7 +314,7 @@ div #my-read-more {
         width: 45vw;
         height: 30vw;
     }
-
+/* flex for larger screens recipe page*/
     .wrapper2 {
         display: flex;
         flex-direction: row;
@@ -339,10 +339,11 @@ div #my-read-more {
 /* <-- Add this closing bracket to end the previous @media block */
 /*media query for min width 1600px*/
 @media only screen and (min-width: 1600px) {
+    /*home page*/
     .home-center .p2 {
         margin-bottom: 35vh;
     }
-
+/*about keto page*/
     .wrapper img {
         justify-content: center;
         align-items: center;
@@ -356,11 +357,13 @@ div #my-read-more {
         margin-left: 50px;
         margin-right: 50px;
     }
+    /*recipe page*/
     .wrapper2 {
         font-size: 1.6rem;
         margin-left: 50px;
         margin-right: 50px;
     }
+    /*sign up form container*/
     .wrapper-form {
         display: flex;
         flex-direction: column;
@@ -378,6 +381,7 @@ div #my-read-more {
 }
 /* media query for very large screens min 2000px*/
 @media only screen and (min-width: 2000px) {
+    /*home page*/
     .home-center .p2 {
         margin-bottom: 30vh;
     }   
@@ -389,7 +393,7 @@ div #my-read-more {
         font-size: 2rem;
         margin-top: 30vh;
     }
-
+/*about keto page*/
     .wrapper img {
         justify-content: center;
         align-items: center;
@@ -404,12 +408,13 @@ div #my-read-more {
         margin-right: 100px;
         margin-bottom:8vh;
     }
-
+/*recipe page*/
     .wrapper2 {
         font-size: 2rem;
         margin-left: 100px;
         margin-right: 100px;
     }
+    /*sign up form container*/
     .wrapper-form {
         display: flex;
         flex-direction: column;
