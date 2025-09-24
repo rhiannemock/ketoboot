@@ -30,7 +30,7 @@
 <body>
     <!--navbar header bootstrap-->
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top" role="navigation">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">KetoGenesis</a>
 
@@ -77,7 +77,7 @@
 
     </header>
     <!--main page content-->
-    <main role="main">
+    <main>
         <section>
             <div class="wrapper">
                 <div class="text-box-top text-box">
@@ -88,6 +88,7 @@
         </section>
         <!--form section-->
         <section>
+            <h3>Sign up using the folowing form!</h3>
             <div class="wrapper-form">
                 <form id="myForm" onsubmit="validateForm(event)" onreset="resetForm()" aria-label="sign up form">
                     <fieldset class="personal-info">
@@ -96,21 +97,21 @@
                         <br>
                         <br>
                         <label for="name">Name:</label>
-                        <input type="text" id="username" name="name" aria-label="name" required>
+                        <input type="text" id="name" name="name"  required>
                         <br>
                         <br>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" aria-label="email" required>
+                        <input type="email" id="email" name="email" required>
                         <br>
                         <br>
                         <label for="age">Age:</label>
-                        <select id="age" name="age" aria-label="age" required>
-                            <option value="" disabled selected aria-label="select your age group">Select your age group</option>
-                            <option value="18-24" aria-label="18 to 24">18-24</option>
-                            <option value="25-34" aria-label="25 to 34">25-34</option>
-                            <option value="35-44" aria-label="35 to 44">35-44</option>
-                            <option value="45-54" aria-label="45 to 54">45-54</option>
-                            <option value="55+" aria-label="55 or over">55+</option>
+                        <select id="age" name="age"  required>
+                            <option value="" disabled selected>Select your age group</option>
+                            <option value="18-24">18-24</option>
+                            <option value="25-34" >25-34</option>
+                            <option value="35-44" >35-44</option>
+                            <option value="45-54" >45-54</option>
+                            <option value="55+" >55+</option>
                         </select>
                     </fieldset>
                     <br>
@@ -122,19 +123,19 @@
                         <br>
                         <br>
                         <label for="gluten">Gluten:</label>
-                        <input type="radio" id="gluten" name="allergies" value="gluten" aria label="gluten allergy">
+                        <input type="radio" id="gluten" name="allergies" value="gluten">
                         <br>
                         <label for="shellfish">Shellfish:</label>
-                        <input type="radio" id="shellfish" name="allergies" value="shellfish" aria-label="shellfish allergy">
+                        <input type="radio" id="shellfish" name="allergies" value="shellfish">
                         <br>
                         <label for="nuts">Nuts:</label>
-                        <input type="radio" id="nuts" name="allergies" value="nuts" aria-label="nut allergy">
+                        <input type="radio" id="nuts" name="allergies" value="nuts">
                         <br>
                         <label for="dairy">Dairy:</label>
-                        <input type="radio" id="dairy" name="allergies" value="dairy" aria-label="dairy allergy">
+                        <input type="radio" id="dairy" name="allergies" value="dairy">
                         <br>
                         <label for="eggs">Eggs:</label>
-                        <input type="radio" id="eggs" name="allergies" value="eggs" aria label="egg allergy">
+                        <input type="radio" id="eggs" name="allergies" value="eggs">
                         <br>
                     </fieldset>
                     <br>
@@ -145,13 +146,13 @@
                         <br>
                         <br>
                         <label for="beginner">Beginner</label>
-                        <input type="checkbox" id="beginner" name="experience" value="beginner" aria-label="beginner experience">
+                        <input type="checkbox" id="beginner" name="experience" value="beginner" >
                         <br>
                         <label for="looked-into-it">I've looked into it</label>
-                        <input type="checkbox" id="looked-into-it" name="experience" value="looked-into-it" aria-label="some experience">
+                        <input type="checkbox" id="looked-into-it" name="experience" value="looked-into-it">
                         <br>
                         <label for="experienced">Experienced</label>
-                        <input type="checkbox" id="experienced" name="experience" value="experienced" aria-label="experienced">
+                        <input type="checkbox" id="experienced" name="experience" value="experienced" >
                         <br>
                         <br>
                         <br>
