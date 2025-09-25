@@ -34,7 +34,7 @@ function validateForm (event) {
     return false
   }
 
-  // 4. Validate Allergies (Radio Buttons)
+  // 4. Validate Allergies (Radio Buttons) google helped from here with the allergies and experience validation
   let isAllergySelected = false
   for (let i = 0; i < allergies.length; i++) {
     if (allergies[i].checked) {
@@ -60,7 +60,7 @@ function validateForm (event) {
     return false
   }
 
-  // If all validations pass
+  // If all validations pass successfully
   setMessage('Success! Your form has been submitted.', 'success')
   document.getElementById('submitButton').innerText = 'Submitted!'
 }
