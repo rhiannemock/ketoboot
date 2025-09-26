@@ -95,6 +95,7 @@ All in all im aiming with this look for a website that is is modern, uncluttered
 TEST
 Submit button/action/method
 Does the action/method work opening a new tab with the information when the submit button is pressed and the form is correctly completed?
+
 EXPECTED RESULT
 The browser will open a new window from code institute formdump to show the form had been submitted successfully.
 
@@ -192,6 +193,7 @@ i filled in the form and clicked submit. the browser opened another tab with the
 * Test 2
 TEST
 Does the reset button clear all data in the form?
+
 EXPECTED RESULT
 The full form is cleared of all user input.
 
@@ -204,6 +206,7 @@ TEST
 name error
 The name is missed and the submit button pressed.
 
+EXPECTED RESULT
 i expect a prompt to the user to fill in the name.
 
 RESULT
@@ -214,6 +217,7 @@ On pressing the submit button the browser scrolled back to the top of the screen
 TEST
 email error
 the email is missed and the submit button pressed.
+
 EXPECTED RESULT
 I expect a prompt to the user to fill in the email address.
 
@@ -224,6 +228,7 @@ The browser scrolled back to the email input with a flashing cursor to prompt th
 * Test 5
 TEST
 Age select missed and the submit button pressed.
+
 EXPECTED RESULT
 I expect a prompt to the usere to select and age group.
 
@@ -234,6 +239,7 @@ The browser showed an alert pointing to the age select box prompting the user to
 * Test 6
 TEST
 Allergies radio button missed.
+
 EXPECTED RESULT
 I expect a prompt to the usere to select one of the radio buttons.
 
@@ -245,6 +251,7 @@ at this point i realise this is required and i do not have a none option. This w
 * Test 7
 TEST
 All age selections display correctly on submitted data.
+
 EXPECTED RESULT
 I expect all of the age groups to display correctly on the submitted data which is returned. withe the catagory of age and the data submitted next to it as follows.
 age:18-24
@@ -259,3 +266,24 @@ All age sections and the catagory were displayed correctly.
 ![25-34 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/25-34.png)
 ![35-44 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/35-44.png)
 ![45-54 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/55+.png)
+
+* Test 8
+TEST
+All of the allergy radio buttons work as expected sending the correct data.
+
+EXPECTED RESULT
+The correct data is submitted for the correct selection under the allergies catagory as follows.
+allergies:dairy
+allergies:egg
+allergies:gluten
+allergies:nuts
+allergies:shellfish
+
+RESULT-passed
+All allergies displayed correctly in the allergies catagory.
+![dairy allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
+![egg allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/egg-allergy.png)
+![gluten allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/gluten-allergy.png)
+![nuts allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/nuts-allergy.png)
+![shellfish allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
+
