@@ -321,7 +321,8 @@ A new radio button needs adding to the allergies section giving the option of no
 
 ## RESOLUTION/SCREEN SIZE TESTS/RESPONSIVENESS
 
-P=Passed if a number is found see corresponding number below the table for more details
+P=Passed if a number is found see corresponding number below the table for more details.
+The screens that are turnable ie phones and tablets have been also tested on the turned screen.
 
 Screen | index.html | introduction.html | about-keto.html | sign-up.html | recipes.html
 --- | --- | --- | --- | --- | ---
@@ -340,6 +341,12 @@ My HP Laptop | P | P | P | P | P
 2560 x 1440 (QUAD HD) | P | P | P | P | P
 browser flex | P | P | P | P | P 
 
+1 The footer was raised on the introduction page on the ipad pro, this was fixed by adding a margin under the wrapper to extend the page content pushing the footer to the bottom.
 
+2 I wasnt happy with the way the images were displayed the different image resolutions were pushing the boxes out of line on larger screens after multiple ways of trying to align them i decided to add them into the text boxes with padding which seemed to work really well.
+![images on a larger screen in the text box](https://www.rhiannemock.github.io/ketoboot/assets/testing-screenshots/resolutions/larger-screen-images.png)
 
+3 iframe sizing needs fixing on smaller screens
+
+4 a media query is needed for screen sizes over 3000px both 3 and 4 have been added to the fix and retest list for working on before the final testing.
 
