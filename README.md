@@ -344,7 +344,7 @@ browser flex | P | P | P | P | P
 1 The footer was raised on the introduction page on the ipad pro, this was fixed by adding a margin under the wrapper to extend the page content pushing the footer to the bottom.
 
 2 I wasnt happy with the way the images were displayed the different image resolutions were pushing the boxes out of line on larger screens after multiple ways of trying to align them i decided to add them into the text boxes with padding which seemed to work really well.
-![images on a larger screen in the text box](https://www.rhiannemock.github.io/ketoboot/assets/testing-screenshots/resolutions/larger-screen-images.png)
+![images on a larger screen in the text box](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/resolutions/larger-screen-images.png)
 
 3 iframe sizing needs fixing on smaller screens
 
