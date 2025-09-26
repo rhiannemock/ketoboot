@@ -281,11 +281,11 @@ allergies:shellfish
 
 RESULT-passed
 All allergies displayed correctly in the allergies catagory. Only one radio button can be pressed at a time.
-![dairy allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
-![egg allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/egg-allergy.png)
-![gluten allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/gluten-allergy.png)
-![nuts allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/nuts-allergy.png)
-![shellfish allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
+![dairy allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/dairy-allergy.png)
+![egg allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/egg-allergy.png)
+![gluten allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/gluten-allergy.png)
+![nuts allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/nuts-allergy.png)
+![shellfish allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/dairy-allergy.png)
 
 * Test 9
 TEST
