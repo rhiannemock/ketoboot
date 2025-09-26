@@ -255,4 +255,7 @@ age:55+
 
 RESULT-passed
 All age sections and the catagory were displayed correctly.
-[18-24 age](https://rhiannemock.github.io/ketoboot/)
+![18-24 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/18-24.png)
+![25-34 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/25-34.png)
+![35-44 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/35-44.png)
+![45-54 age](https://rhiannemock.github.io/ketoboot/assets/testing-acreenshots/form-testing/age-testing/55+.png)
