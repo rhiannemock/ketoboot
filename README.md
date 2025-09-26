@@ -59,7 +59,10 @@ The recipes page includes delicious images of the meals.
 ### Skeleton
 Mock up /wireframes
 I have created the wireframes for the website although the site has been modified based on being more visually pleasing with the 2 column of boxes going down the page on larger screens.
-[Ketogenesis wireframe for desktop]
+[Ketogenesis wireframe for desktop](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-desktop-wireframes.pdf)
+[Ketogenesis wireframe for tablet](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-tablet-wireframes.pdf)
+[Ketogenesis wireframe for mobile](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-mobile-wireframes.pdf)
+I have also added a landing page which is not on the wireframes as i didnt like the first page being the introduction page.
 
 ### Surface
 Color layout fonts images sequence identity
@@ -78,8 +81,9 @@ I chose to use separate boxed sections containing specific information and image
     max-width: 100%;
 }
 On mobile and tablet they will be shown in a column going down the page, on desktop and larger it will split to 2 columns of boxes going down the page.
-The navbar will toggle the menu and be at the top of every page.
+The navbar will toggle the menu and be at the top of every page. 
 I have chosen dark grey and white with a pop of orange as my color scheme throughout all pages.  Using the orange for headings of the sections means the website can be easily scanned for what you are looking for.
 I chose orange for the footer which will be the same on every page containing links to emails and social media.
 The merriwether font was chosen for its modern look and easy readability.
 All in all im aiming with this look for a website that is is modern, uncluttered and visually pleasing aswell as being easy to read and informative.
+
