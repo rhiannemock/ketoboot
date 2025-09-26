@@ -87,3 +87,4 @@ I chose orange for the footer which will be the same on every page containing li
 The merriwether font was chosen for its modern look and easy readability.
 All in all im aiming with this look for a website that is is modern, uncluttered and visually pleasing aswell as being easy to read and informative.
 
+[find my error testing and results here](https://rhiannemock.github.io/ketoboot/testing.md)

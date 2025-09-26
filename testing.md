@@ -128,7 +128,7 @@ I expect a prompt to the user to fill in the email address.
 
 RESULT-passed
 The browser scrolled back to the email input with a flashing cursor to prompt the user to fill in the field.
-[link to error testing image for email](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/email-missed.png)
+![link to error testing image for email](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/email-missed.png)
 
 * Test 5
 TEST
@@ -138,7 +138,7 @@ I expect a prompt to the usere to select and age group.
 
 RESULT-passed
 The browser showed an alert pointing to the age select box prompting the user to select and age group.
-[link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/age-missed.png)
+![link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/age-missed.png)
 
 * Test 6
 TEST
@@ -149,8 +149,19 @@ I expect a prompt to the usere to select one of the radio buttons.
 RESULT-passed
 The browser displayed an alert pointing at the allergies section prompting the user to select an allergy.
 at this point i realise this is required and i do not have a none option. This will be added and results can be found in the final tests section later in this document.
-[link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/allergies-missed.png)
+![link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/allergies-missed.png)
 
-* test 7
+* Test 7
 TEST
+All age selections display correctly on submitted data.
+EXPECTED RESULT
+I expect all of the age groups to display correctly on the submitted data which is returned. withe the catagory of age and the data submitted next to it as follows.
+age:18-24
+age:25-34
+age:35-44
+age:45-54
+age:55+
 
+RESULT-passed
+All age sections and the catagory were displayed correctly.
+![18-24 age](https://rhiannemock.github.io/ketoboot/)
