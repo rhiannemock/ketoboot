@@ -208,7 +208,7 @@ i expect a prompt to the user to fill in the name.
 
 RESULT
 On pressing the submit button the browser scrolled back to the top of the screen and put a flasing curser in the name input box.
-[link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/name-missed.png)
+![link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/name-missed.png)
 
 * Test 4
 TEST
