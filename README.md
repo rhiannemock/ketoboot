@@ -92,6 +92,7 @@ All in all im aiming with this look for a website that is is modern, uncluttered
 # Form Testing
 
 * Test 1
+* 
 TEST
 Submit button/action/method
 Does the action/method work opening a new tab with the information when the submit button is pressed and the form is correctly completed?
@@ -191,6 +192,7 @@ RESULT-passed
 i filled in the form and clicked submit. the browser opened another tab with the information i had entered correctly as intended.
 
 * Test 2
+  
 TEST
 Does the reset button clear all data in the form?
 
@@ -202,6 +204,7 @@ the reset button was pressed after form submission and the information i had ent
 
 ## error testing
 * Test 3
+  
 TEST
 name error
 The name is missed and the submit button pressed.
@@ -214,6 +217,7 @@ On pressing the submit button the browser scrolled back to the top of the screen
 ![link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/name-missed.png)
 
 * Test 4
+  
 TEST
 email error
 the email is missed and the submit button pressed.
@@ -226,6 +230,7 @@ The browser scrolled back to the email input with a flashing cursor to prompt th
 ![link to error testing image for email](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/email-missed.png)
 
 * Test 5
+  
 TEST
 Age select missed and the submit button pressed.
 
@@ -237,6 +242,7 @@ The browser showed an alert pointing to the age select box prompting the user to
 ![link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/age-missed.png)
 
 * Test 6
+  
 TEST
 Allergies radio button missed.
 
@@ -249,6 +255,7 @@ at this point i realise this is required and i do not have a none option. This w
 ![link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/allergies-missed.png)
 
 * Test 7
+  
 TEST
 All age selections display correctly on submitted data.
 
@@ -268,6 +275,7 @@ All age sections and the catagory were displayed correctly.
 ![45-54 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/55+.png)
 
 * Test 8
+  
 TEST
 All of the allergy radio buttons work as expected sending the correct data.
 
@@ -288,6 +296,7 @@ All allergies displayed correctly in the allergies catagory. Only one radio butt
 ![shellfish allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/dairy-allergy.png)
 
 * Test 9
+  
 TEST
 Experience checkbox testing
 
@@ -305,6 +314,19 @@ ADDITIONAL NOTE: if 2 checkboxes are checked it only displays the first one, at 
 ![beginner checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/beginner.png)
 ![looked into it checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/looked-into-it.png)
 ![experienced checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/experienced.png)
+
+#### OVERALL RESULTS OF FORM TESTS/CHANGES NEEDED
+
+A new radio button needs adding to the allergies section giving the option of no allergies.
+
+## RESOLUTION/SCREEN SIZE TESTS/RESPONSIVENESS
+
+P=Passed if a number is found see corresponding number below the table for more details
+
+Screen | index.html | introduction.html | about-keto.html | sign-up.html | recipes.html
+--- | --- | --- | --- | --- | ---
+Samsung A9+ | P | P | P | P | P 
+Samsung S25 | P | P | P | P | P
 
 
 
