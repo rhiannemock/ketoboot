@@ -272,7 +272,7 @@ TEST
 All of the allergy radio buttons work as expected sending the correct data.
 
 EXPECTED RESULT
-The correct data is submitted for the correct selection under the allergies catagory as follows.
+The correct data is submitted for the correct selection under the allergies catagory as follows and only one radio button can be chosen, if another is clicked it will change to the other.
 allergies:dairy
 allergies:egg
 allergies:gluten
@@ -280,10 +280,31 @@ allergies:nuts
 allergies:shellfish
 
 RESULT-passed
-All allergies displayed correctly in the allergies catagory.
+All allergies displayed correctly in the allergies catagory. Only one radio button can be pressed at a time.
 ![dairy allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
 ![egg allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/egg-allergy.png)
 ![gluten allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/gluten-allergy.png)
 ![nuts allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/nuts-allergy.png)
 ![shellfish allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allery-testing/dairy-allergy.png)
+
+* Test 9
+TEST
+Experience checkbox testing
+
+EXPECTED RESULT
+The data submitted is displayed correctly in the Experience catagory as below.
+experience:beginner
+experience:looked into it
+experience:experienced
+
+RESULT-passed
+All of the experince levels checked displayed correctly with the experience catagory.
+
+ADDITIONAL NOTE: if 2 checkboxes are checked it only displays the first one, at a later date i would probably change this to radio buttons to avoid complications.
+
+![beginner checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/beginner.png)
+![looked into it checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/looked-into-it.png)
+![experienced checkbox](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/experience-testing/experienced.png)
+
+
 
