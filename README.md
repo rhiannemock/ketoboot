@@ -89,6 +89,18 @@ All in all im aiming with this look for a website that is is modern, uncluttered
 
 
 # TESTING
+I have a list of ways of testing below that i will be using, these will be completed, changes made and final testing done once all changes have been made.
+
+## Tests
+1. Sign up form testing
+2. responsiveness testing
+3. wave testing
+4. HTML and CSS testing using w3c and jigsaw
+5. link testing page by page including images opening in a new window
+6. browser compatability testing
+7. lighthouse testing
+   
+   Once these tests are complete i will have a list of errors which will be worked on before the final testing phase.
 # Form Testing
 
 * Test 1
@@ -202,11 +214,11 @@ The full form is cleared of all user input.
 RESULT-passed
 the reset button was pressed after form submission and the information i had entered was cleared from all of the input areas.
 
-## error testing
+## Error testing
 * Test 3
   
 TEST
-name error
+name required errors
 The name is missed and the submit button pressed.
 
 EXPECTED RESULT
@@ -219,7 +231,7 @@ On pressing the submit button the browser scrolled back to the top of the screen
 * Test 4
   
 TEST
-email error
+email required errors.
 the email is missed and the submit button pressed.
 
 EXPECTED RESULT
@@ -348,5 +360,65 @@ browser flex | P | P | P | P | P
 
 3 iframe sizing needs fixing on smaller screens
 
-4 a media query is needed for screen sizes over 3000px both 3 and 4 have been added to the fix and retest list for working on before the final testing.
+4 a media query is needed for screen sizes over 3000px.
+
+ADDITIONAL NOTE 
+both 3 and 4 have been added to the fix and retest list for working on before the final testing.
+
+
+
+# Wave testing
+
+## index page
+
+The first wave test showed
+
+0 Errors
+
+0 Contrast Errors
+
+2 Alerts
+1x possible heading and 1x redundant link
+
+![index page wave test](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/index/index-wave.png)
+
+The first for a possible heading is the paragraph at the top of the screen which says "welcome to" and the main heading h1 is styled into the center of the screen.
+
+![index page screenshot](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/index/index-screenshot.png)
+
+AS this is the style of the page i have decided not to change it.
+
+The second alert was 1 redundant link. This is located in the bootstrap navbar at the top before the menu, i have removed the link as it is for the same page and was just meant as a reference to the current page, aria-current="home" and so doesnt need a link.
+
+![index navbar image](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/index/index-navbar-link.png)
+
+That alert has now been removed from wave when re run.
+
+## Introduction page
+
+The first wave on this page showed
+
+0 Errors
+0 Contrast Errors
+1 Alert
+
+The alert was that i had missed a level 1 heading.
+![first wave on introduction](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave.png)
+i changed the level 2 hewadings both to a level 1 heading.
+
+I waved the page again and it had 1 alert, redundant links,
+![second wave on introdution](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-2.png)
+
+so i removed the links in the paragraph as they were also in the navbar.
+
+i waved the introduction page again
+![third wave on introdution](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-3.png)
+
+It once again suggests there are redundant links and labels the home link
+
+I looked through my code and i cannot find the redundant link
+![introduction link navbar code](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-3-code.png)
+![introduction footer link code](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-3-code-2.png)
+
+I have decided to investigate this further when i do my link testing later in the testing list but cant currently see a fault.
 
