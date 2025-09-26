@@ -327,6 +327,19 @@ Screen | index.html | introduction.html | about-keto.html | sign-up.html | recip
 --- | --- | --- | --- | --- | ---
 Samsung A9+ | P | P | P | P | P 
 Samsung S25 | P | P | P | P | P
+Iphone SE | P | P | P | P | P
+Iphone 12 Pro | P | P | P | P | P
+Iphone 14 Pro Max | P | P | P | P | P
+Galaxy S8+ | P | P | P | P | P
+Galaxt S20 Ultra | P | P | 2 & 3 | P | P
+Ipad mini | P | P | P | P | P |
+Ipad Pro | P | 1 | P | P | P |
+My HP Laptop | P | P | P | P | P
+1920 x 1080 (full hd) | P | P | P | P | P
+1366 x 768 | P | P | P | P | P
+2560 x 1440 (QUAD HD) | P | P | P | P | P
+browser flex | P | P | P | P | P 
+
 
 
 
