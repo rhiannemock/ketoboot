@@ -208,7 +208,7 @@ i expect a prompt to the user to fill in the name.
 
 RESULT
 On pressing the submit button the browser scrolled back to the top of the screen and put a flasing curser in the name input box.
-![link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/error-testing/name-missed.png)
+![link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/name-missed.png)
 
 * Test 4
 TEST
@@ -229,7 +229,7 @@ I expect a prompt to the usere to select and age group.
 
 RESULT-passed
 The browser showed an alert pointing to the age select box prompting the user to select and age group.
-[link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/age-missed.png)
+![link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/age-missed.png)
 
 * Test 6
 TEST
@@ -240,7 +240,7 @@ I expect a prompt to the usere to select one of the radio buttons.
 RESULT-passed
 The browser displayed an alert pointing at the allergies section prompting the user to select an allergy.
 at this point i realise this is required and i do not have a none option. This will be added and results can be found in the final tests section later in this document.
-[link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/allergies-missed.png)
+![link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/allergies-missed.png)
 
 * Test 7
 TEST
