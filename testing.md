@@ -138,7 +138,7 @@ I expect a prompt to the usere to select and age group.
 
 RESULT-passed
 The browser showed an alert pointing to the age select box prompting the user to select and age group.
-![link to error testing image for age](../assets/testing-screenshots/form-testing/error-testing/age-missed.png)
+[link to error testing image for age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/age-missed.png)
 
 * Test 6
 TEST
@@ -164,4 +164,4 @@ age:55+
 
 RESULT-passed
 All age sections and the catagory were displayed correctly.
-![18-24 age](https://rhiannemock.github.io/ketoboot/)
+[18-24 age](https://rhiannemock.github.io/ketoboot/)
