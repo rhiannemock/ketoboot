@@ -190,20 +190,6 @@ footer p a:hover {
     border-radius: 10px;
 }
 
-/*...........questions and answers section.....................*/
-
-/*read more and read less toggle button*/
-div #my-read-more {
-    display: none;
-}
-
-#more:checked~#my-read-more {
-    display: block;
-}
-
-.hide-checkbox {
-    display: none;
-}
 
 /*.............................................recipe section.............................................*/
 .recipe-image {
