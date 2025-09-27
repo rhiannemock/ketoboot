@@ -422,3 +422,24 @@ I looked through my code and i cannot find the redundant link
 
 I have decided to investigate this further when i do my link testing later in the testing list but cant currently see a fault.
 
+## About keto page
+
+The first wave test showed
+
+1 Error
+
+0 Contrast errors
+
+3 Alerts
+
+The first wave test showed that my toggle for read more/read less as an error, saying there were multiple form labels and also an alert that there was no fieldset for the form. I chose to change it for a details dropdown for better accessibility and less confusion.
+![First wave on about keto page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-first-wave.png)
+
+This fixed the error.
+
+Another alert showed suspicious alt text.
+I removed the image of from the alt text which fixed this issue.
+![Suspicious alt text](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-suspicous-alt-text.png)
+
+The final alert showed as a youtube video which i have decided to keep in the website.
+![youtube video](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-image-of-removed.png)
