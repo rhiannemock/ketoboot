@@ -439,7 +439,7 @@ This fixed the error.
 
 Another alert showed suspicious alt text.
 I removed the image of from the alt text which fixed this issue.
-![Suspicious alt text](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-suspicous-alt-text.png)
+![Suspicious alt text](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-suspicious-alt-text.png)
 
 The final alert showed as a youtube video which i have decided to keep in the website.
 ![youtube video](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-image-of-removed.png)
