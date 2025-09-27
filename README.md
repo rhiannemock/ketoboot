@@ -443,3 +443,8 @@ I removed the image of from the alt text which fixed this issue.
 
 The final alert showed as a youtube video which i have decided to keep in the website.
 ![youtube video](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/about-keto-wave/about-keto-wave-image-of-removed.png)
+
+## Sign up page
+
+The sign up page showed no errors, contrast errors nor alerts.
+![sign up page wave results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/sign-up/sign-up-page-wave-clear.png)
