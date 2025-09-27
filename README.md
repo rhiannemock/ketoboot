@@ -448,3 +448,8 @@ The final alert showed as a youtube video which i have decided to keep in the we
 
 The sign up page showed no errors, contrast errors nor alerts.
 ![sign up page wave results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/sign-up/sign-up-page-wave-clear.png)
+
+## Recipes page
+
+The recipes page showed no errors, contrast errors nor alerts.
+![recipes page wave results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/recipes-wave/recipes-wave-clear.png)
