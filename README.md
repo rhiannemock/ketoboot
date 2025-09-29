@@ -525,7 +525,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 ## introduction page links
 
-The links on the index page and the result of clicking the link are as follows.
+The links on the introduction page and the result of clicking the link are as follows.
 
 ![Links as shown on introduction page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/introduction-links/introduction-page-links.png)
 
