@@ -151,7 +151,16 @@ meal-log.jpg[meal log](https://www.premeditatedleftovers.com)
 meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 
+## Media queries
 
+i have added media queries for min width
+500px
+768px
+1025px
+1600px
+and 2000px
+
+these i feel cover most general screen sizes (check resolution/responsiveness testing) although i feel another media query should be added for 3000px and over.
 
 # TESTING
 I have a list of ways of testing below that i will be using, these will be completed, changes made and final testing done once all changes have been made.
