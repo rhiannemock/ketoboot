@@ -855,6 +855,31 @@ i ran the first test with the following result..
 i fixed the errors mentioned and re-ran the test and it passed.
 ![cleared html test about keto page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/about-keto-tests/about-keto-second-test-cleared.png)
 
+### sign up html testing
 
+i ran the first html test which threw up alot of errors mainly with my aria labelling of each of the options as shown here...
 
+![sign up page first test 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-1.png)
+
+![sign up page first test 2](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-2.png)
+
+![sign up page first test 3](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-3.png)
+
+![sign up page first test 4](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-4.png)
+
+![sign up page first test 5](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-5.png)
+
+I fixed all of the above errors and the test passed
+
+![sign up page test passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-second-test-cleared.png)
+
+### recipes html testing
+
+i did the first test which showed commenting errors as shown below...
+
+![recipes page first test](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/recipes-tests/recipes-page-first-test.png)
+
+This was quickly fixed and the test te-run and passed
+
+![recipes test 2](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/recipes-tests/recipes-page-testing-cleared.png)
 
