@@ -952,6 +952,10 @@ This was quickly fixed and the test te-run and passed
 
 Code spell checker v4.2.6
 
+## lighthouse tests
+
+[mobile lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=mobile)
+[desktop lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=desktop)
 ## Issues
 
 1. radio button for none needs to be added in the allergy section of the form on the sign up page
