@@ -1,11 +1,11 @@
-# ketogenesis 
+# ketogenesis  
 For this project I decided to create a website about the ketogenic diet. A diet I have used previously and so know a good deal about it,how well it works the ups and downs, difficulties faced as well as all the amazing health benefits and how this particular diet differs from so many others.
 I wanted to write this website for anyone having difficulty sticking to other heavily restrictive diets for weight loss or anyone suffering from the below symptoms. 
 * The diet can help people with type 1 or type 2 diabetes keeping their blood sugars low. 
 * It combats mental fatigue and brain fog so is great for menopause symptoms.
 * Ketones give you energy so is good for lethargy.
 * It helps reduce bloating and aid digestion so is excellent for IBS sufferers.
-* The keto diet is a fabulous way to loose weight without feeling hungry as counting carbs rather than calories means you can eat alot more.
+* The keto diet is a fabulous way to loose weight without feeling hungry as counting carbs rather than calories means you can eat a lot more.
 * It is suggested it also helps with seizures and epilepsy so would suggest anyone who is suffering from those illnesses to try it, however there needs to be more research done to officially confirm this.
 ## UX
 ### Strategy
@@ -29,7 +29,7 @@ They would need to know ...
 ### Scope
 what features are on and off the table.
 The features of the website would be.
-* The ability to sign up for email recipes so you dont get bored with eating the same things.
+* The ability to sign up for email recipes so you don't get bored with eating the same things.
 * Printable shopping list and meal log.
 * Social media links to supportive pages with like minded people and discussions.
 * An iframe video explaining the diet.
@@ -62,7 +62,7 @@ I have created the wireframes for the website although the site has been modifie
 [Ketogenesis wireframe for desktop](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-desktop-wireframes.pdf)
 [Ketogenesis wireframe for tablet](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-tablet-wireframes.pdf)
 [Ketogenesis wireframe for mobile](https://rhiannemock.github.io/ketoboot/assets/ketogenesis-wireframes/keto-diet-mobile-wireframes.pdf)
-I have also added a landing page which is not on the wireframes as i didnt like the first page being the introduction page.
+I have also added a landing page which is not on the wireframes as i didn't like the first page being the introduction page.
 
 ### Surface
 Color layout fonts images sequence identity
@@ -85,7 +85,7 @@ The navbar will toggle the menu and be at the top of every page.
 I have chosen dark grey and white with a pop of orange as my color scheme throughout all pages.  Using the orange for headings of the sections means the website can be easily scanned for what you are looking for.
 I chose orange for the footer which will be the same on every page containing links to emails and social media.
 The merriwether font was chosen for its modern look and easy readability.
-All in all im aiming with this look for a website that is is modern, uncluttered and visually pleasing aswell as being easy to read and informative.
+All in all im aiming with this look for a website that is is modern, uncluttered and visually pleasing as well as being easy to read and informative.
 
 
 # TESTING
@@ -113,8 +113,8 @@ EXPECTED RESULT
 The browser will open a new window from code institute formdump to show the form had been submitted successfully.
 
 
-I realise I had used html and javascript to validate my form which was causing issues. The reason I originally chose javascript to do this was to change the button to submitted once form had been sent and i got a bit carried away. The following is the javascript i removed and went back to using html validation with the required on everything apart from the checkboxes for the experience.
-I realise the action/method page is the way the user would know the information had been submitted i used target="_blank" to ensure it opened in a separate page.
+I realize I had used html and javascript to validate my form which was causing issues. The reason I originally chose javascript to do this was to change the button to submitted once form had been sent and i got a bit carried away. The following is the javascript i removed and went back to using html validation with the required on everything apart from the checkboxes for the experience.
+I realize the action/method page is the way the user would know the information had been submitted i used target="_blank" to ensure it opened in a separate page.
 
 / Function to validate the form
 function validateForm (event) {
@@ -263,7 +263,7 @@ I expect a prompt to the user to select one of the radio buttons.
 
 RESULT-passed
 The browser displayed an alert pointing at the allergies section prompting the user to select an allergy.
-at this point i realise this is required and i do not have a none option. This will be added and results can be found in the final tests section later in this document.
+at this point i realize this is required and i do not have a none option. This will be added and results can be found in the final tests section later in this document.
 ![link to error testing image for allergies](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/allergies-missed.png)
 
 * Test 7
@@ -280,7 +280,7 @@ age:45-54
 age:55+
 
 RESULT-passed
-All age sections and the catagory were displayed correctly.
+All age sections and the category were displayed correctly.
 ![18-24 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/18-24.png)
 ![25-34 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/25-34.png)
 ![35-44 age](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/age-testing/35-44.png)
@@ -319,7 +319,7 @@ experience:looked into it
 experience:experienced
 
 RESULT-passed
-All of the experince levels checked displayed correctly with the experience category.
+All of the experience levels checked displayed correctly with the experience category.
 
 ADDITIONAL NOTE: if 2 checkboxes are checked it only displays the first one, at a later date i would probably change this to radio buttons to avoid complications.
 
@@ -344,7 +344,7 @@ Iphone SE | P | P | P | P | P
 Iphone 12 Pro | P | P | P | P | P
 Iphone 14 Pro Max | P | P | P | P | P
 Galaxy S8+ | P | P | P | P | P
-Galaxt S20 Ultra | P | P | 2 & 3 | P | P
+Galaxy S20 Ultra | P | P | 2 & 3 | P | P
 Ipad mini | P | P | P | P | P |
 Ipad Pro | P | 1 | P | P | P |
 My HP Laptop | P | P | P | P | P
@@ -355,7 +355,7 @@ browser flex | P | P | P | P | P
 
 1 The footer was raised on the introduction page on the ipad pro, this was fixed by adding a margin under the wrapper to extend the page content pushing the footer to the bottom.
 
-2 I wasnt happy with the way the images were displayed the different image resolutions were pushing the boxes out of line on larger screens after multiple ways of trying to align them i decided to add them into the text boxes with padding which seemed to work really well.
+2 I wasn't happy with the way the images were displayed the different image resolutions were pushing the boxes out of line on larger screens after multiple ways of trying to align them i decided to add them into the text boxes with padding which seemed to work really well.
 ![images on a larger screen in the text box](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/resolutions/larger-screen-images.png)
 
 3 iframe sizing needs fixing on smaller screens
@@ -388,7 +388,7 @@ The first for a possible heading is the paragraph at the top of the screen which
 
 AS this is the style of the page i have decided not to change it.
 
-The second alert was 1 redundant link. This is located in the bootstrap navbar at the top before the menu, i have removed the link as it is for the same page and was just meant as a reference to the current page, aria-current="home" and so doesnt need a link.
+The second alert was 1 redundant link. This is located in the bootstrap navbar at the top before the menu, i have removed the link as it is for the same page and was just meant as a reference to the current page, aria-current="home" and so doesn't need a link.
 
 ![index navbar image](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/index/index-navbar-link.png)
 
@@ -404,15 +404,15 @@ The first wave on this page showed
 
 The alert was that i had missed a level 1 heading.
 ![first wave on introduction](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave.png)
-i changed the level 2 hewadings both to a level 1 heading.
+i changed the level 2 headings both to a level 1 heading.
 
 I waved the page again and it had 1 alert, redundant links,
-![second wave on introdution](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-2.png)
+![second wave on introduction](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-2.png)
 
 so i removed the links in the paragraph as they were also in the navbar.
 
 i waved the introduction page again
-![third wave on introdution](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-3.png)
+![third wave on introduction](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/introduction/introduction-wave-3.png)
 
 It once again suggests there are redundant links and labels the home link
 
@@ -500,7 +500,7 @@ The recipes link opened the recipes page in the same window.
 
 PRINTABLE LINKS
 
-The printables didnt work on the github pages site, this is because i used relative links and so this has been changed.
+The printables didn't work on the github pages site, this is because i used relative links and so this has been changed.
 
 The printable shopping list now opens in a separate window.
 
@@ -514,7 +514,7 @@ Facebook login page opened in a separate window.
 
 Instagram login page opened in a separate window
 
-Tiktok didnt open just showed about:blank in a new window, i had the URL incorrect, corrected on all pages.
+Tiktok didn't open just showed about:blank in a new window, i had the URL incorrect, corrected on all pages.
 
 Tiktok login page now opens in a separate window.
 
@@ -734,7 +734,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 ## recipe page links
 
-The links on the rceipe page and the result of clicking the link are as follows.
+The links on the recipe page and the result of clicking the link are as follows.
 
 ![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/recipe-links/recipes-page-links.png)
 
@@ -801,7 +801,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 First test threw up 2 errors
 
-Property  font-optical-sizing:auto doesnt exist
+Property  font-optical-sizing:auto doesn't exist
 
 this shows in 2 places the font import and the body
 
@@ -833,13 +833,13 @@ i removed the slash and re-ran the html tests all passed.
 
 At this point the comments were corrected throughout the full website.
 
-### indroduction html testing
+### introduction html testing
 
 i ran the first tests with the following result..
 
 ![introduction html testing first test](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/introduction-tests/introduction.html-first-test.png)
 
-i fixed the rrors and re-ran the test which then passed.
+i fixed the errors and re-ran the test which then passed.
 
 ![second test on the introduction page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/introduction-tests/introduction.html-second-test-cleared.png)
 
@@ -857,7 +857,7 @@ i fixed the errors mentioned and re-ran the test and it passed.
 
 ### sign up html testing
 
-i ran the first html test which threw up alot of errors mainly with my aria labelling of each of the options as shown here...
+i ran the first html test which threw up a lot of errors mainly with my aria labelling of each of the options as shown here...
 
 ![sign up page first test 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/sign-up-tests/sign-up-first-test-1.png)
 
@@ -883,3 +883,14 @@ This was quickly fixed and the test te-run and passed
 
 ![recipes test 2](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/recipes-tests/recipes-page-testing-cleared.png)
 
+## spell checked 
+
+Code spell checker v4.2.6
+
+## Issues
+
+1. radio button for none needs to be added in the allergy section of the form on the sign up page
+2. iframe needs to be more flexible
+3. media query needs to be added for screens over 3000px
+4. images on about keto page need altering, pyramid needs adding to the pyramid foods text box and a wrapper which shows them side by side added.
+5. 5. the issue wave had with the Home link on the introduction page works and i cannot find a fault with it.
