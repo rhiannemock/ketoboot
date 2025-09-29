@@ -630,7 +630,7 @@ INTERNAL LINKS
 
 The Home link opened the home page in the same window.
 
-The About Keto link opened the About keto page in the same window.
+The Introduction link opened the About keto page in the same window.
 
 The Sign up link opened the sign up page in the same window.
 
