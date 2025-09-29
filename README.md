@@ -453,3 +453,39 @@ The sign up page showed no errors, contrast errors nor alerts.
 
 The recipes page showed no errors, contrast errors nor alerts.
 ![recipes page wave results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/wave-tests/recipes-wave/recipes-wave-clear.png)
+
+# LINK TESTING
+
+## index page links
+
+The links on the index page and the result of clicking the link are as follows.
+
+![Links as shown on index page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/index-links/index-page-links.png)
+
+EXPECTED RESULTS-the links for
+
+introduction
+
+about keto
+
+sign up
+
+and recipes
+
+should open the corresponding page in the same browser window.
+
+The 3 printables should open a printable image in a separate window.
+
+The 3 social media links should open the corresponding social media sites in a separate window.
+
+RESULTS
+
+The Introduction link opened the introduction page in the same window.
+
+The About Keto link opened the About keto page in the same window.
+
+The 
+
+
+
+
