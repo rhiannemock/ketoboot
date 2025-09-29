@@ -589,7 +589,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 ## about keto page links
 
-The links on the index page and the result of clicking the link are as follows.
+The links on the about keto page and the result of clicking the link are as follows.
 
 ![Links as shown on about keto page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/about-keto-links/about-keto-page-links.png)
 
@@ -667,3 +667,131 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 
 
+## sign up page links
+
+The links on the sign up page and the result of clicking the link are as follows.
+
+![Links as shown on sign up page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/sign-up-links/sign-up-page-links.png)
+
+EXPECTED RESULTS-the internal links for
+Home
+
+Introduction
+
+About Keto
+
+and Recipes
+
+should open the corresponding page in the same browser window.
+
+PRINTABLE LINKS
+
+The 3 printables should open a printable image in a separate window.
+
+SOCIAL MEDIA LINKS
+
+The 3 social media links should open the corresponding social media sites in a separate window.
+
+
+EMAIL LINK
+
+The email link should open the users mailbox in order to compose an email.
+
+RESULTS
+
+INTERNAL LINKS
+
+The Home link opened the home page in the same window.
+
+The Introduction link opened the About keto page in the same window.
+
+The About keto link opened the sign up page in the same window.
+
+The recipes link opened the recipes page in the same window.
+
+PRINTABLE LINKS
+
+
+The printable shopping list now opens in a separate window.
+
+The printable meal log gave an error 404 there was a typo in the URL fixed and retested and now opens in a separate window.
+
+The printable meal plan now opens in a separate window.
+
+SOCIAL MEDIA LINKS
+
+Facebook login page opened in a separate window.
+
+Instagram login page opened in a separate window
+
+Tiktok login page opened in a separate window.
+
+
+EMAIL LINK
+
+The email link showed an option of email apps and browsers to use to send an email.
+
+
+## recipe page links
+
+The links on the rceipe page and the result of clicking the link are as follows.
+
+![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/recipe-links/recipe-page-links.png)
+
+EXPECTED RESULTS-the internal links for
+Home
+
+Introduction
+
+About Keto
+
+and Sign up
+
+should open the corresponding page in the same browser window.
+
+PRINTABLE LINKS
+
+The 3 printables should open a printable image in a separate window.
+
+SOCIAL MEDIA LINKS
+
+The 3 social media links should open the corresponding social media sites in a separate window.
+
+READ MORE
+
+Expected to open more questions and answers
+
+
+RESULTS
+
+INTERNAL LINKS
+
+The Home link opened the home page in the same window.
+
+The Introduction link opened the About keto page in the same window.
+
+The About keto link opened the sign up page in the same window.
+
+The sign up link opened the recipes page in the same window.
+
+PRINTABLE LINKS
+
+
+The printable shopping list now opens in a separate window.
+
+The printable meal log now opens in a separate window.
+
+The printable meal plan now opens in a separate window.
+
+SOCIAL MEDIA LINKS
+
+Facebook login page opened in a separate window.
+
+Instagram login page opened in a separate window
+
+Tiktok login page opened in a separate window.
+
+
+EMAIL LINK
+
+The email link showed an option of email apps and browsers to use to send an email.
