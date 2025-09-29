@@ -160,7 +160,6 @@ meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 i have added media queries for min width
 500px
-768px
 1025px
 1600px
 and 2000px
