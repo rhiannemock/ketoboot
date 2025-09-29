@@ -827,7 +827,7 @@ I fixed the shown errors and ran the test again
 
 i had missed the slash at the end of the css validated code.
 
-i removed the slash and re-ran  the html tests.
+i removed the slash and re-ran the html tests all passed.
 
 ![third test with the w3c validator on the index page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-third-test-index.html-cleared.png)
 
