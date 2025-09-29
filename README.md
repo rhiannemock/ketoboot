@@ -127,7 +127,7 @@ All in all im aiming with this look for a website that is is modern, uncluttered
 
 1. website images
 
-background3.jpg-www.[background image](https://www.typeatraining.com) altered with photopea
+background3.jpg-[background image](https://www.typeatraining.com) altered with photopea
 food-pyramid.jpg-[food pyramid image](https://www.ketoconnect.com)
 keto-diet.jpg- [diet spelled from food image](https://www.shutterstock.com)
 pie-chart.jpg- [keto pie chart](https://www.istock.com)
