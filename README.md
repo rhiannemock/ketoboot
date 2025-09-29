@@ -831,6 +831,30 @@ i removed the slash and re-ran the html tests all passed.
 
 ![third test with the w3c validator on the index page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-third-test-index.html-cleared.png)
 
+At this point the comments were corrected throughout the full website.
+
+### indroduction html testing
+
+i ran the first tests with the following result..
+
+![introduction html testing first test](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/introduction-tests/introduction.html-first-test.png)
+
+i fixed the rrors and re-ran the test which then passed.
+
+![second test on the introduction page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/introduction-tests/introduction.html-second-test-cleared.png)
+
+### about keto html testing
+
+i ran the first test with the following result..
+![first html test on about keto page 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/about-keto-tests/about-keto-first-test-1.png)
+
+![about keto html test page 2](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/about-keto-tests/about-keto-first-test-2.png)
+
+![about keto html test page 3](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/about-keto-tests/about-keto-first-test-3.png)
+
+i fixed the errors mentioned and re-ran the test and it passed.
+![cleared html test about keto page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/about-keto-tests/about-keto-second-test-cleared.png)
+
 
 
 
