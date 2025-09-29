@@ -504,7 +504,19 @@ The printable meal log now opens in a separate window.
 
 The printable meal plan now opens in a separate window.
 
-SOCILA MEDIA LINKS
+SOCIAL MEDIA LINKS
+
+Facebook login page opened in a separate window.
+
+Instagram login page opened in a separate window
+
+Tiktok didnt open just showed about:blank in a new window, i had the URL incorrect, corrected on all pages.
+
+Tiktok login page now opens in a separate window.
+
+
+
+
 
 
 
