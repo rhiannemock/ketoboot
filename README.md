@@ -100,10 +100,7 @@ Later on in the design i added a background and box-shadow,border radius of 10px
 
 .wrapper .text-box {
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10px 10px 10px;
     background-color: #232429;
     box-shadow: 0 1px 3px #00020b;
     margin: 20px 20px 20px 20px;
@@ -147,13 +144,15 @@ fb-logo.png
 
 all from [flaticon](https://www.flaticon.com)
 
-1. [favicons created on](https://www.favicon.io) 
+3. [favicons created on](https://www.favicon.io) 
 
-2. printables
+4. printables
 
 keto-shopping-list.jpg [keto shopping list](https://www.craft-mart.com)
 meal-log.jpg[meal log](https://www.premeditatedleftovers.com)
 meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
+
+5. iframe youtube [Dr Eric Berg DC youtube](https://www.youtube.com/watch?v=dR6TnC1RY_8)
 
 
 ## Media queries
