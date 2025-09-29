@@ -736,7 +736,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 The links on the rceipe page and the result of clicking the link are as follows.
 
-![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/recipe-links/recipe-page-links.png)
+![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/recipe-links/recipes-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 Home
@@ -815,5 +815,9 @@ pass code copied and added to each page of the website.
 
 ### index.html testing
 
-![First test results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots)
+i ran the HTML test using the w3c validator
+
+![First index page test results page 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-index.html-first-test-1.png)
+
+
 
