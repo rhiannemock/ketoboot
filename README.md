@@ -462,29 +462,51 @@ The links on the index page and the result of clicking the link are as follows.
 
 ![Links as shown on index page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/index-links/index-page-links.png)
 
-EXPECTED RESULTS-the links for
+EXPECTED RESULTS-the internal links for
 
-introduction
+Introduction
 
-about keto
+About keto
 
-sign up
+Sign up
 
-and recipes
+and Recipes
 
 should open the corresponding page in the same browser window.
 
+PRINTABLE LINKS
+
 The 3 printables should open a printable image in a separate window.
+
+SOCIAL MEDIA LINKS
 
 The 3 social media links should open the corresponding social media sites in a separate window.
 
 RESULTS
 
+INTERNAL LINKS
+
 The Introduction link opened the introduction page in the same window.
 
 The About Keto link opened the About keto page in the same window.
 
-The 
+The Sign up link opened the sign up page in the same window.
+
+The recipes link opened the recipes page in the same window.
+
+PRINTABLE LINKS
+
+The printables didnt work on the github pages site, this is because i used relative links and so this has been changed.
+
+The printable shopping list now opens in a separate window.
+
+The printable meal log now opens in a separate window.
+
+The printable meal plan now opens in a separate window.
+
+SOCILA MEDIA LINKS
+
+
 
 
 
