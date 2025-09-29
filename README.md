@@ -67,7 +67,7 @@ I have also added a landing page which is not on the wireframes as i didnt like 
 ### Surface
 Color layout fonts images sequence identity
 I want to create easy to read yet informative website. 
-I chose to use separate boxed sections containing specific information and images relating to the information where necessary keeping this consistant on every page. Later on in the design i added a background and box-shadow,border radius of 10px for smooth rounded corners and a margin of 20px on each box giving the effect of floating over the background.
+I chose to use separate boxed sections containing specific information and images relating to the information where necessary keeping this consistent on every page. Later on in the design i added a background and box-shadow,border radius of 10px for smooth rounded corners and a margin of 20px on each box giving the effect of floating over the background.
 .wrapper .text-box {
     text-align: center;
     padding-left: 10px;
@@ -97,7 +97,7 @@ I have a list of ways of testing below that i will be using, these will be compl
 3. wave testing
 4. HTML and CSS testing using w3c and jigsaw
 5. link testing page by page including images opening in a new window
-6. browser compatability testing
+6. browser compatibility testing
 7. lighthouse testing
    
    Once these tests are complete i will have a list of errors which will be worked on before the final testing phase.
@@ -225,7 +225,7 @@ EXPECTED RESULT
 i expect a prompt to the user to fill in the name.
 
 RESULT
-On pressing the submit button the browser scrolled back to the top of the screen and put a flasing curser in the name input box.
+On pressing the submit button the browser scrolled back to the top of the screen and put a flashing curser in the name input box.
 ![link to error testing image for name](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/error-testing/name-missed.png)
 
 * Test 4
@@ -247,7 +247,7 @@ TEST
 Age select missed and the submit button pressed.
 
 EXPECTED RESULT
-I expect a prompt to the usere to select and age group.
+I expect a prompt to the user to select and age group.
 
 RESULT-passed
 The browser showed an alert pointing to the age select box prompting the user to select and age group.
@@ -259,7 +259,7 @@ TEST
 Allergies radio button missed.
 
 EXPECTED RESULT
-I expect a prompt to the usere to select one of the radio buttons.
+I expect a prompt to the user to select one of the radio buttons.
 
 RESULT-passed
 The browser displayed an alert pointing at the allergies section prompting the user to select an allergy.
@@ -272,7 +272,7 @@ TEST
 All age selections display correctly on submitted data.
 
 EXPECTED RESULT
-I expect all of the age groups to display correctly on the submitted data which is returned. withe the catagory of age and the data submitted next to it as follows.
+I expect all of the age groups to display correctly on the submitted data which is returned. withe the category of age and the data submitted next to it as follows.
 age:18-24
 age:25-34
 age:35-44
@@ -292,7 +292,7 @@ TEST
 All of the allergy radio buttons work as expected sending the correct data.
 
 EXPECTED RESULT
-The correct data is submitted for the correct selection under the allergies catagory as follows and only one radio button can be chosen, if another is clicked it will change to the other.
+The correct data is submitted for the correct selection under the allergies category as follows and only one radio button can be chosen, if another is clicked it will change to the other.
 allergies:dairy
 allergies:egg
 allergies:gluten
@@ -300,7 +300,7 @@ allergies:nuts
 allergies:shellfish
 
 RESULT-passed
-All allergies displayed correctly in the allergies catagory. Only one radio button can be pressed at a time.
+All allergies displayed correctly in the allergies category. Only one radio button can be pressed at a time.
 ![dairy allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/dairy-allergy.png)
 ![egg allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/egg-allergy.png)
 ![gluten allergy](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/form-testing/allergy-testing/gluten-allergy.png)
@@ -313,13 +313,13 @@ TEST
 Experience checkbox testing
 
 EXPECTED RESULT
-The data submitted is displayed correctly in the Experience catagory as below.
+The data submitted is displayed correctly in the Experience category as below.
 experience:beginner
 experience:looked into it
 experience:experienced
 
 RESULT-passed
-All of the experince levels checked displayed correctly with the experience catagory.
+All of the experince levels checked displayed correctly with the experience category.
 
 ADDITIONAL NOTE: if 2 checkboxes are checked it only displays the first one, at a later date i would probably change this to radio buttons to avoid complications.
 
