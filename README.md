@@ -964,3 +964,4 @@ Code spell checker v4.2.6
 3. media query needs to be added for screens over 3000px
 4. images on about keto page need altering, pyramid needs adding to the pyramid foods text box and a wrapper which shows them side by side added.
 5.  the issue wave had with the Home link on the introduction page works and i cannot find a fault with it.
+6.  image sources need to be added in alt text
