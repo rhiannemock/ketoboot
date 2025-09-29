@@ -460,7 +460,7 @@ The recipes page showed no errors, contrast errors nor alerts.
 
 The links on the index page and the result of clicking the link are as follows.
 
-![Links as shown on index page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/index-links/index-page-links.png)
+![Links as shown on index page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/index-links/index-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 
@@ -527,7 +527,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 The links on the introduction page and the result of clicking the link are as follows.
 
-![Links as shown on introduction page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/introduction-links/introduction-page-links.png)
+![Links as shown on introduction page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/introduction-links/introduction-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 Home
@@ -591,7 +591,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 The links on the about keto page and the result of clicking the link are as follows.
 
-![Links as shown on about keto page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/about-keto-links/about-keto-page-links.png)
+![Links as shown on about keto page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/about-keto-links/about-keto-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 Home
@@ -671,7 +671,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 The links on the sign up page and the result of clicking the link are as follows.
 
-![Links as shown on sign up page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/sign-up-links/sign-up-page-links.png)
+![Links as shown on sign up page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/sign-up-links/sign-up-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 Home
@@ -736,7 +736,7 @@ The email link showed an option of email apps and browsers to use to send an ema
 
 The links on the rceipe page and the result of clicking the link are as follows.
 
-![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/testing-screenshots/links-testing/recipe-links/recipe-page-links.png)
+![Links as shown on recipe page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/links-testing/recipe-links/recipe-page-links.png)
 
 EXPECTED RESULTS-the internal links for
 Home
@@ -795,3 +795,25 @@ Tiktok login page opened in a separate window.
 EMAIL LINK
 
 The email link showed an option of email apps and browsers to use to send an email.
+
+
+## CSS testing using Jigsaw
+
+First test threw up 2 errors
+
+Property  font-optical-sizing:auto doesnt exist
+
+this shows in 2 places the font import and the body
+
+this property was removed and I retested with Jigsaw
+
+RESULT-passed
+
+pass code copied and added to each page of the website.
+
+## HTML testing
+
+### index.html testing
+
+![First test results](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots)
+
