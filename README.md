@@ -815,9 +815,22 @@ pass code copied and added to each page of the website.
 
 ### index.html testing
 
-i ran the HTML test using the w3c validator
+I ran the HTML test on the index page using the w3c validator.
 
-![First index page test results page 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-index.html-first-test-1.png)
+![First index page test results page 1](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-first-test-1.png)
+
+![First index page test results page 2](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-first-test-index.html-2.png)
+
+I fixed the shown errors and ran the test again
+
+![Second test with the w3c validator on the index page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-index.html-second-test.png)
+
+i had missed the slash at the end of the css validated code.
+
+i removed the slash and re-ran  the html tests.
+
+![third test with the w3c validator on the index page](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/html-testing/index.html-tests/w3c-validator-third-test-index.html-cleared.png)
+
 
 
 
