@@ -956,10 +956,11 @@ Code spell checker v4.2.6
 
 [mobile lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=mobile)
 [desktop lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=desktop)
+
 ## Issues
 
 1. radio button for none needs to be added in the allergy section of the form on the sign up page
 2. iframe needs to be more flexible
 3. media query needs to be added for screens over 3000px
 4. images on about keto page need altering, pyramid needs adding to the pyramid foods text box and a wrapper which shows them side by side added.
-5. 5. the issue wave had with the Home link on the introduction page works and i cannot find a fault with it.
+5.  the issue wave had with the Home link on the introduction page works and i cannot find a fault with it.
