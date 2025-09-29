@@ -135,6 +135,9 @@ keto-diet.jpg- [diet spelled from food image](https://www.shutterstock.com)
 pie-chart.jpg- [keto pie chart](https://www.istock.com)
 keto-avocado-bacon-salad.png- [keto avocado bacon image](https://www.ketorilla.com)
 keto-chicken-alfredo.png-[chicken alfredo image](https://www.easyyums.com)
+seafood.jpg- [seafood image](https://wallpapercave.com/w/wp1912356)
+eggs.jpg- [eggs image](https://wallpapercave.com/w/wp15491548)
+keto-drinks.jpg - [drinks image](https://jugosnaturales.net/refreshing-keto-drinks/)
 
 1. social media images
 

@@ -75,10 +75,10 @@ body {
 }
 
 .wrapper iframe {
-    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 10px;
 }
