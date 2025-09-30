@@ -159,19 +159,29 @@ All in all im aiming with this look for a website that is is modern, uncluttered
 1. website images
 
 background3.jpg-[background image](https://www.typeatraining.com) altered with photopea
+
 food-pyramid.jpg-[food pyramid image](https://www.ketoconnect.com)
+
 keto-diet.jpg- [diet spelled from food image](https://www.shutterstock.com)
+
 pie-chart.jpg- [keto pie chart](https://www.istock.com)
+
 keto-avocado-bacon-salad.png- [keto avocado bacon image](https://www.ketorilla.com)
+
 keto-chicken-alfredo.png-[chicken alfredo image](https://www.easyyums.com)
+
 seafood.jpg- [seafood image](https://wallpapercave.com/w/wp1912356)
+
 eggs.jpg- [eggs image](https://wallpapercave.com/w/wp15491548)
+
 keto-drinks.jpg - [drinks image](https://jugosnaturales.net/refreshing-keto-drinks/)
 
 1. social media images
 
 tiktok.png
+
 insta-logo.png
+
 fb-logo.png
 
 all from [flaticon](https://www.flaticon.com)
@@ -181,7 +191,9 @@ all from [flaticon](https://www.flaticon.com)
 4. printables
 
 keto-shopping-list.jpg [keto shopping list](https://www.craft-mart.com)
+
 meal-log.jpg[meal log](https://www.premeditatedleftovers.com)
+
 meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 5. iframe youtube [Dr Eric Berg DC youtube](https://www.youtube.com/watch?v=dR6TnC1RY_8)
