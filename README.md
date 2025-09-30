@@ -1,11 +1,17 @@
 # ketogenesis  
 For this project I wanted to create a website about the ketogenic diet. A diet I have used previously and so know a good deal about it,how well it works the ups and downs, difficulties faced as well as all the amazing health benefits and how this particular diet differs from so many others.
 I wanted to write this website for anyone having difficulty sticking to other heavily restrictive diets for weight loss or anyone suffering from the below symptoms. 
+
 * The diet can help people with type 1 or type 2 diabetes keeping their blood sugars low. 
+  
 * It combats mental fatigue and brain fog so is great for menopause symptoms.
+ 
 * Ketones give you energy so is good for lethargy.
+  
 * It helps reduce bloating and aid digestion so is excellent for IBS sufferers.
+  
 * The keto diet is a fabulous way to loose weight without feeling hungry as counting carbs rather than calories means you can eat a lot more.
+  
 * It is suggested it also helps with seizures and epilepsy so would suggest anyone who is suffering from those illnesses to try it, however there needs to be more research done to officially confirm this.
 
 ### Basic business goals objectives and user needs.
@@ -119,7 +125,33 @@ I chose orange for the footer which will be the same on every page containing li
 The merriwether font was chosen for its modern look and easy readability.
 
 All in all im aiming with this look for a website that is is modern, uncluttered and visually pleasing as well as being easy to read and informative.
+
+
 ## User stories
+
+1. As a user new to the keto diet, I want to read a clear explanation of what the diet is and how ketosis works, so that I can understand the basic metabolic shift required.
+
+2. As a potential email list participant, I want to know the health and lifestyle benefits of the keto diet (e.g., enhanced mental clarity, weight loss) so that I feel motivated to sign up.
+
+3. As an interested visitor, I want to know who the keto diet is recommended for and who should avoid it, so that I can assess if it is medically appropriate for me.
+
+4. As a mobile user, I want the informational content to be easy to read on a small screen, so I don't have to scroll horizontally or pinch-to-zoom.
+
+5. As a busy user i want to be able to access information on what i can and cant eat quickly eg whilst shopping or cooking.
+
+6. As a first-time user, I want to easily input my basic personal details (Name, Email, Age) so that I can initiate my email list subscription.
+
+7. As a user with food sensitivities, I want to be able to select my specific allergies or intolerance's (e.g., Gluten, Shellfish, Nuts) so that the generated meal plans are safe for me to follow.
+
+8. As a user with existing keto knowledge, I want to state my level of experience (Beginner, Experienced) so that the program delivers appropriately challenging or foundational content.
+
+9. As a registered user, I want a clear 'Submit' button that confirms my data submission, so I know my registration is complete.
+
+10.  As a user who made a mistake, I want a reset button so I can quickly clear all fields and start the form entry process again without reloading the page.
+
+11. As a user who has missed a form section i want to be made aware of the parts missed.
+
+
 
 
 ## Acknowledgements
@@ -178,6 +210,7 @@ I have a list of ways of testing below that i will be using, these will be compl
 5. link testing page by page including images opening in a new window
 6. browser compatibility testing
 7. lighthouse testing
+8. user story compatibility
    
    Once these tests are complete i will have a list of errors which will be worked on before the final testing phase.
 # Form Testing
@@ -972,7 +1005,53 @@ Code spell checker v4.2.6
 [desktop lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=desktop)
 
 
-## User stories
+## User story compatibility
+
+1. As a user new to the keto diet, I want to read a clear explanation of what the diet is and how ketosis works, so that I can understand the basic metabolic shift required.
+
+--The introduction page clearly explains what the keto diet is and how it works.
+![introduction explanation](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/user-stories/user-story-1.png)
+
+2. As a potential email list participant, I want to know the health and lifestyle benefits of the keto diet (e.g., enhanced mental clarity, weight loss) so that I feel motivated to sign up.
+
+--The first section of the about keto page lists the health benefits of the keto diet.
+![About keto page health benefits](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/user-stories/user-story-2.png)
+
+3. As an interested visitor, I want to know who the keto diet is recommended for and who should avoid it, so that I can assess if it is medically appropriate for me.
+
+4. As a mobile user, I want the informational content to be easy to read on a small screen, so I don't have to scroll horizontally or pinch-to-zoom.
+  
+--The content is fitted within the screen size and been tested on many screen resolutions, see resolution section, the writing is large enough to easily read.
+
+5. As a busy user i want to be able to access information on what i can and cant eat quickly eg whilst shopping or cooking.
+
+--the website features a printable shopping list, the foods information is grouped into sections with clear headings to be easily scanned for the information the user requires.
+
+1. As a first-time user, I want to easily input my basic personal details (Name, Email, Age) so that I can initiate my email list subscription.
+
+--The form is clearly labelled with quick easy input sections.
+
+2. As a user with food sensitivities, I want to be able to select my specific allergies or intolerance's (e.g., Gluten, Shellfish, Nuts) so that the generated meal plans are safe for me to follow.
+
+--the allergies section indicates which allergies the user has, recipes can then be sent to tailor for their specific requirements.
+
+
+3. As a user with existing keto knowledge, I want to state my level of experience (Beginner, Experienced) so that the program delivers appropriately challenging or foundational content.
+
+--tips sent in the emails will be based on the experience the user has, eg if they have stopped loosing weight but the macros are correct it could be because they aren't taking in enough calories, this could be something a more experienced user wouldn't know.
+
+4.  As a registered user, I want a clear 'Submit' button that confirms my data submission, so I know my registration is complete.
+  
+--  After submitting the form the user is shown a page from the server that confirms the details they have sent.
+
+5.   As a user who made a mistake, I want a reset button so I can quickly clear all fields and start the form entry process again without reloading the page.
+  
+--A reset button has been added to clear all user data entered.
+
+6.  As a user who has missed a form section i want to be made aware of the parts missed.
+
+--I used form validation to ensure if a required entry is missed the browser clearly displays what has been missed and what is required before they can submit the form.  
+
 
 ## Issues
 
