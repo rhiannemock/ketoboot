@@ -1121,3 +1121,11 @@ Code spell checker v4.2.6
 7. i have reduced the font size for an easier on the eye appearance as it was too large.
 
 8. i have tried to remove the bootstrap gutters giving the screen a slight horizontal scroll i have not been successful in this as of yet but i am aware of it.
+
+# Second wave of tests
+
+## CSS
+
+![css tests passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/css-passed.png)
+
+## HTML
