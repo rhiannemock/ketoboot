@@ -12,6 +12,8 @@ I wanted to write this website for anyone having difficulty sticking to other he
   
 * The keto diet is a fabulous way to loose weight without feeling hungry as counting carbs rather than calories means you can eat a lot more.
   
+* the keto diet can help with good cholesterol
+  
 * It is suggested it also helps with seizures and epilepsy so would suggest anyone who is suffering from those illnesses to try it, however there needs to be more research done to officially confirm this.
 
 ### Basic business goals objectives and user needs.
