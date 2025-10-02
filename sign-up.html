@@ -45,7 +45,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="sign-up.html">Sign Up</a>
+                               
                             </li>
 
                             <li class="nav-item dropdown">
@@ -54,8 +54,8 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-dark">
                                     <li><a class="dropdown-item" href="index.html" aria-label="home page">Home</a></li>
-                                    <li><a class="dropdown-item" href="introduction.html" aria-label="introduction">Introduction</a></li>
-                                    <li><a class="dropdown-item" href="about-keto.html" aria-label="sign up page">About Keto</a></li>
+                                    <li><a class="dropdown-item" href="about-keto.html" aria-label="about keto page">About Keto</a></li>
+                                    <li><a class="dropdown-item" href="sign-up.html" aria-label="sign up page current page">Sign Up</a></li>
                                     <li><a class="dropdown-item" href="recipes.html" aria-label="recipes">Recipes</a></li>
 
 
@@ -81,7 +81,7 @@
         <section>
             <div class="wrapper">
                 <div class="text-box-top text-box">
-                    <h1 class="color-orange">Why not sign up to our emails? </h1>
+                    <h1 class="color-orange">Sign Up</h1>
                     <p>You will get exclusive access to recipes, tips and latest features. All designed to get you started and support you throughout your ketogenic journey!</p>
                 </div>
             </div>
@@ -94,8 +94,7 @@
                     <fieldset class="personal-info">
                         <legend class="color-orange">Please enter your Personal Information</legend>
                         <br>
-                        <br>
-                        <br>
+                        
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
                         <br>
@@ -114,36 +113,32 @@
                             <option value="55+">55+</option>
                         </select>
                     </fieldset>
-                    <br>
-                    <br>
-                    <br>
+                    
                     <fieldset id="allergies">
 
                         <legend class="color-orange">Do you have any food allergies or intolerance's?</legend>
                         <br>
                         <br>
                         <label for="gluten">Gluten:</label>
-                        <input type="radio" id="gluten" name="allergies" value="gluten" required>
+                        <input type="checkbox" id="gluten" name="allergies" value="gluten" required>
                         <br>
                         <label for="shellfish">Shellfish:</label>
-                        <input type="radio" id="shellfish" name="allergies" value="shellfish">
+                        <input type="checkbox" id="shellfish" name="allergies" value="shellfish">
                         <br>
                         <label for="nuts">Nuts:</label>
-                        <input type="radio" id="nuts" name="allergies" value="nuts">
+                        <input type="checkbox" id="nuts" name="allergies" value="nuts">
                         <br>
                         <label for="dairy">Dairy:</label>
-                        <input type="radio" id="dairy" name="allergies" value="dairy">
+                        <input type="checkbox" id="dairy" name="allergies" value="dairy">
                         <br>
                         <label for="eggs">Eggs:</label>
-                        <input type="radio" id="eggs" name="allergies" value="eggs">
+                        <input type="checkbox" id="eggs" name="allergies" value="eggs">
                         <br>
                         <label for="none">None:</label>
-                        <input type="radio" id="none" name="allergies" value="none">
+                        <input type="checkbox" id="none" name="allergies" value="none">
                         <br>
                     </fieldset>
-                    <br>
-                    <br>
-                    <br>
+                    
                     <fieldset id="experience">
                         <legend class="color-orange">How much previous experience do you have with keto?</legend>
                         <br>
@@ -156,9 +151,7 @@
                         <br>
                         <label for="experienced">Experienced</label>
                         <input type="radio" id="experienced" name="experience" value="experienced">
-                        <br>
-                        <br>
-                        <br>
+                        
                     </fieldset>
                     
                     <button type="submit" id="submitButton" aria-label="submit button">Submit</button>
@@ -168,11 +161,7 @@
             </div>
 
         </section>
-        <p>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-            </a>
-        </p>
+        
     </main>
 
     <!--footer-->
