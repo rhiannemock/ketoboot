@@ -176,6 +176,10 @@ h1 .heading-span {
     padding-right: 5px;
     box-shadow: 0 3px 6px #00020b;
 }
+.wrapper-form fieldset {
+        padding-bottom: 50px;
+    }
+
 .wrapper-form button {
     border-radius: 10px;
     font-weight: bold;
