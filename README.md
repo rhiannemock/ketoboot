@@ -199,6 +199,8 @@ meal-log.jpg[meal log](https://www.premeditatedleftovers.com)
 meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 5. iframe youtube [Dr Eric Berg DC youtube](https://www.youtube.com/watch?v=dR6TnC1RY_8)
+   
+6. I used google gemini AI to produce a list of frequently asked questions for the website.
 
 
 ## Media queries
@@ -212,6 +214,32 @@ and 2000px
 these i feel cover most general screen sizes (check resolution/responsiveness testing) although i feel another media query should be added for 3000px and over.
 
 ## Deployment
+
+
+Set up a Github repository.
+
+create a folder on your computer to save the files.
+
+open visual studio code and connect to the github repository using the url github provides use the nominated folder to store your website files.
+
+create first files and folders in visual studio and commit to the repository.
+
+To activate github pages
+ 
+Go to GitHub: Open your repository in the web browser.
+
+Click the Settings tab, then find Pages in the left sidebar.
+
+Under "Build and deployment," change the Source dropdown to "Deploy from a branch."
+
+For the Branch option, choose main (or master) and select the root folder (/). Click Save.
+
+
+GitHub will now start building your site.
+
+Wait for a minute minute. Refresh the Page.
+
+A banner will appear at the top with your live URL (e.g., https://username.github.io/my-keto-site/). Your site is live!
 
 # TESTING
 I have a list of ways of testing below that i will be using, these will be completed, changes made and final testing done once all changes have been made.
@@ -230,7 +258,7 @@ I have a list of ways of testing below that i will be using, these will be compl
 # Form Testing
 
 * Test 1
-* 
+  
 TEST
 Submit button/action/method
 Does the action/method work opening a new tab with the information when the submit button is pressed and the form is correctly completed?
