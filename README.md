@@ -1044,8 +1044,9 @@ Code spell checker v4.2.6
 ## lighthouse tests
 
 [mobile lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=mobile)
+![mobile lighthouse tests](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/lighthouse-mobile.png)
 [desktop lighthouse tests](https://pagespeed.web.dev/analysis/https-rhiannemock-github-io-ketoboot/sadh5ctq4w?form_factor=desktop)
-
+![desktop lighthouse tests](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/lighthouse-desktop.png)
 
 ## User story compatibility
 
