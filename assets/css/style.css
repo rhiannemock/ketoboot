@@ -172,6 +172,7 @@ h1 .heading-span{
     padding-bottom: 20px;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow:0 3px 6px #00020b;
 }
 
 .wrapper-form button {
@@ -210,8 +211,8 @@ h1 .heading-span{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #232429;
-    box-shadow: 0 1px 3px #00020b;
-    margin: 20px 20px 20px 20px;
+    box-shadow: 0 3px 6px #00020b;
+    margin: 10px 10px 10px 10px;
     border-radius: 10px;
     max-width: 90%;
     font-size:0.8rem;
@@ -337,6 +338,18 @@ h1 .heading-span{
         width:50%;
 
     }
+
+    /*..............for larger screen recipe page....*/
+    .wrapper2 .style {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #232429;
+    box-shadow: 0 3px 6px #00020b;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
 }
 
 
