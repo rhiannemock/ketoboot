@@ -1106,7 +1106,7 @@ Code spell checker v4.2.6
 
 
 ## Fixes
-1. I changed the allergies radio buttons to checkbox so more than one can be checked  i have removed the validation on this section of the form as a group of check boxes can only be validated in one is clicked using javascript and it gives the option for the user to choose one or none.
+1. I changed the allergies radio buttons to checkbox so more than one can be checked  i have removed the validation on this section of the form as a group of check boxes can only be validated in one is clicked using javascript and it gives the option for the user to choose one or none, i will also note that the testing of the form showed it still only sends one allergy to the server even if more than one are selected.
 
 2. i changed the experience checkboxes to radio buttons so only one can be chosen.
 
