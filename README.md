@@ -1142,3 +1142,23 @@ I had a few errors on the recipe page at first ....
 ![recipes html passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/recipes-html-passed.png)
 
 
+## Browser testing
+
+chrome version 140.0.7339.155 for android 15 operating system
+
+microsoft edge Version 140.0.3485.94 (Official build) (64-bit) desktop
+
+![microsoft edge screenshot](https://rhiannemock.github.io/ketoboot/testing-screenshots/browser-tests/microsoft.edge.png)
+
+chrome Version 140.0.7339.128 (Official Build) (64-bit) desktop
+
+![chrome screenshot](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/browser-tests/chrome.png)
+
+chrome Version 141.0.7390.55 (Official Build) (64-bit) desktop
+
+firefox 143.0.3 (64 bit)
+
+![firefox screenshot](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/firefox.png)
+
+the website looked the same on all browsers tested.
+
