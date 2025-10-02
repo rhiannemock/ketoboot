@@ -1129,3 +1129,16 @@ Code spell checker v4.2.6
 ![css tests passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/css-passed.png)
 
 ## HTML
+
+![index.html passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/index-html-passed.png)
+
+![about keto html passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/about-keto-html-passed.png)
+
+![sign up html passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/sign-up-html-passed.png)
+
+I had a few errors on the recipe page at first ....
+![recipe page errors](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/recipes-html-1.png)
+
+![recipes html passed](https://rhiannemock.github.io/ketoboot/assets/testing-screenshots/recipes-html-passed.png)
+
+
