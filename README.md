@@ -963,7 +963,7 @@ this property was removed and I retested with Jigsaw
 
 RESULT-passed
 
-pass code copied and added to each page of the website.
+
 
 ## HTML testing
 
@@ -1100,6 +1100,24 @@ Code spell checker v4.2.6
 1. radio button for none needs to be added in the allergy section of the form on the sign up page
 2. iframe needs to be more flexible
 3. media query needs to be added for screens over 3000px
-4. images on about keto page need altering, pyramid needs adding to the pyramid foods text box and a wrapper which shows them side by side added.
+4. images on about keto page need altering, pyramid needs adding to the pyramid foods text box and a wrapper.
 5.  the issue wave had with the Home link on the introduction page works and i cannot find a fault with it.
 6.  image sources need to be added in alt text
+
+
+## Fixes
+1. I changed the allergies radio buttons to checkbox so more than one can be checked  i have removed the validation on this section of the form as a group of check boxes can only be validated in one is clicked using javascript and it gives the option for the user to choose one or none.
+
+2. i changed the experience checkboxes to radio buttons so only one can be chosen.
+
+3. i altered the images and iframe to be shown within a .text-box so all match and float over the background.
+
+4. i have fixed the background so it doesn't scroll which helps the boxes to float over the top giving a nice effect.
+
+5. i have altered my links so the menu looks the same on every page and added h1 titles to the pages.
+
+6. i have removed the introduction page and added that info to the landing page.
+
+7. i have reduced the font size for an easier on the eye appearance as it was too large.
+
+8. i have tried to remove the bootstrap gutters giving the screen a slight horizontal scroll 
