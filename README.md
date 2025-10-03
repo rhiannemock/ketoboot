@@ -200,7 +200,7 @@ meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 5. iframe youtube [Dr Eric Berg DC youtube](https://www.youtube.com/watch?v=dR6TnC1RY_8)
    
-6. I used google gemini AI to produce a list of frequently asked questions for the website.
+6. I used google gemini AI to produce a list of frequently asked questions for the website, to help with the write up on the about keto page and the recipes.
 
 
 ## Media queries
