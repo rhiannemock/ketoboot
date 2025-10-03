@@ -178,7 +178,7 @@ eggs.jpg- [eggs image](https://wallpapercave.com/w/wp15491548)
 
 keto-drinks.jpg - [drinks image](https://jugosnaturales.net/refreshing-keto-drinks/)
 
-1. social media images
+2. social media images
 
 tiktok.png
 
@@ -200,7 +200,9 @@ meal-plan-example.jpg[meal plan example](https://www.ketodietyum.com)
 
 5. iframe youtube [Dr Eric Berg DC youtube](https://www.youtube.com/watch?v=dR6TnC1RY_8)
    
-6. I used google gemini AI to produce a list of frequently asked questions for the website.
+6. I used google gemini AI to produce a list of frequently asked questions for the website, to help with the write up on the about keto page and the recipes.
+
+7. navbar- bootstrap
 
 
 ## Media queries
