@@ -359,14 +359,14 @@ h1 .heading-span {
     }
 
     .wrapper {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         margin-left: 50px;
         margin-right: 50px;
     }
 
     /*recipe page*/
     .wrapper2 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -421,7 +421,7 @@ h1 .heading-span {
     }
 
     .wrapper {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 15vh;
@@ -429,7 +429,7 @@ h1 .heading-span {
 
     /*recipe page*/
     .wrapper2 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         margin-left: 100px;
         margin-right: 100px;
     }
@@ -448,6 +448,6 @@ h1 .heading-span {
         padding-bottom: 20px;
         padding-left: 5px;
         padding-right: 5px;
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 }
