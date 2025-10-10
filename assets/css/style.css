@@ -46,6 +46,12 @@ body {
 .wrapper ul {
     list-style-type: none;
 }
+.wrapper2 ul {
+    list-style-type: none;
+}
+.wrapper2 ol {
+    list-style-type: none;
+}
 
 /*text box alignment of text for the top to allow margin for nav*/
 .wrapper .text-box-top {
